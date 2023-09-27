@@ -1,0 +1,113 @@
+﻿<Manifest
+  Version="1.0.1"
+  IsLibrary="true">
+  <Libraries>
+    <Library
+      Name="CAREL_BASIC_LIB"
+      Version="2.4.1"
+      IsSystem="true" />
+  </Libraries>
+  <Pou
+    Name="Func3D"
+    Moniker="Func3D.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="Enable"
+      Comment=""
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="TotalX"
+      Comment="Кол-во столбцов по Х (верхняя шапка таблицы) макс 16 счет с 0"
+      DataType="DINT"
+      Kind="VarInput" />
+    <Variable
+      Name="X"
+      Comment="Показания с датчика темп испарения"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="XHeadArr"
+      Comment="Значения Х (верхняя шапка таблицы)"
+      DataType="REAL,0-127"
+      Kind="VarInput" />
+    <Variable
+      Name="Y"
+      Comment="показания с датчика температуры конденсации"
+      DataType="REAL"
+      Kind="VarInput" />
+    <Variable
+      Name="YHeadArr"
+      Comment="массив значений температуры конденсации (Y (левая) шапка таблицы)"
+      DataType="REAL,0-127"
+      Kind="VarInput" />
+    <Variable
+      Name="ZHeadArr"
+      Comment="двумерный массив со значениями мощности. В каждом i массиве таблица соответствия (тело таблицы)"
+      DataType="Nums_Arr"
+      Kind="VarInput" />
+    <Variable
+      Name="Result"
+      Comment="Результат"
+      DataType="REAL"
+      Kind="VarOutput" />
+    <Variable
+      Name="i"
+      Comment=""
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="YDot"
+      Comment=""
+      DataType="REAL,0-127"
+      Kind="Var" />
+    <Variable
+      Name="Y1Dot"
+      Comment=""
+      DataType="REAL,0-127"
+      Kind="Var" />
+    <Variable
+      Name="XArr"
+      Comment=""
+      DataType="REAL,0-127"
+      Kind="Var" />
+    <Variable
+      Name="Interpolate_REAL_1"
+      Comment=""
+      DataType="Interpolate_REAL"
+      Kind="Var" />
+    <Variable
+      Name="YArr"
+      Comment=""
+      DataType="REAL,0-127"
+      Kind="Var" />
+    <Variable
+      Name="minX"
+      Comment=""
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="maxX"
+      Comment=""
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="minY"
+      Comment=""
+      DataType="REAL"
+      Kind="Var" />
+    <Variable
+      Name="maxY"
+      Comment=""
+      DataType="REAL"
+      Kind="Var" />
+  </Pou>
+</Manifest>

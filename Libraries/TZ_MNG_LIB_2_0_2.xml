@@ -1,0 +1,396 @@
+﻿<Manifest
+  Version="1.0.1"
+  IsLibrary="true">
+  <Libraries />
+  <Pou
+    Name="WeekDay_TZ"
+    Moniker="WeekDay_TZ.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="Function"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="false">
+    <Variable
+      Name="Day"
+      Comment="Number of the day (between 1 and 31)"
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="Month"
+      Comment="Number of the month (between 1 and 12)"
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="Year"
+      Comment="Number of the year, in form 20YY or YYYY"
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="WeekDay_TZ"
+      Comment="Day of the week (between 1 and 7)"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="MonthTmp"
+      Comment=""
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="YearTmp"
+      Comment=""
+      DataType="UINT"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="CurrDateTime_TZ"
+    Moniker="CurrDateTime_TZ.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="false">
+    <Variable
+      Name="Second"
+      Comment="Current second (0-59)"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Minute"
+      Comment="Current minute (0-59)"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Hour"
+      Comment="Current hour (0-23)"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Day"
+      Comment="Current day (1-31)"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Month"
+      Comment="Current month (1-12)"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Year"
+      Comment="Current year"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="DayOfWeek"
+      Comment="Current day of the week (between 1 and 7)"
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="DateToUint"
+      Comment=""
+      DataType="DATE_TO_UINT"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="TZ_Data"
+    Moniker="TZ_Data.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="false">
+    <Variable
+      Name="Year"
+      Comment=""
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="TZ_Array"
+      Comment=""
+      DataType="TZ_ARRAY_TZM"
+      Kind="VarOutput" />
+    <Variable
+      Name="TZ_ArrayLength"
+      Comment=""
+      DataType="DINT"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="StrToRegArray"
+    Moniker="StrToRegArray.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="false">
+    <Variable
+      Name="Str"
+      Comment=""
+      DataType="STRING"
+      Kind="VarInput" />
+    <Variable
+      Name="BitArray"
+      Comment=""
+      DataType="WORD,0-24"
+      Kind="VarOutput" />
+    <Variable
+      Name="I"
+      Comment=""
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="CharAscii"
+      Comment=""
+      DataType="WORD"
+      Kind="Var" />
+    <Variable
+      Name="OddChar"
+      Comment=""
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="EvenChar"
+      Comment=""
+      DataType="DINT"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="RegArrayToStr"
+    Moniker="RegArrayToStr.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="false">
+    <Variable
+      Name="BitArray"
+      Comment=""
+      DataType="WORD,0-24"
+      Kind="VarInput" />
+    <Variable
+      Name="Str"
+      Comment=""
+      DataType="STRING"
+      Kind="VarOutput" />
+    <Variable
+      Name="I"
+      Comment=""
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="CharAscii"
+      Comment=""
+      DataType="WORD"
+      Kind="Var" />
+    <Variable
+      Name="EvenChar"
+      Comment=""
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="OddChar"
+      Comment=""
+      DataType="DINT"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="GetTZFromRule"
+    Moniker="GetTZFromRule.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="false">
+    <Variable
+      Name="TZ_Rule"
+      Comment=""
+      DataType="STRING"
+      Kind="VarInput" />
+    <Variable
+      Name="TZ_Array"
+      Comment=""
+      DataType="TZ_ARRAY_TZM"
+      Kind="VarInput" />
+    <Variable
+      Name="TZ_ArrayLength"
+      Comment=""
+      DataType="DINT"
+      Kind="VarInput" />
+    <Variable
+      Name="TZ_Out"
+      Comment=""
+      DataType="TZ_DATA_TZM"
+      Kind="VarOutput" />
+    <Variable
+      Name="Index"
+      Comment=""
+      DataType="DINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Exist"
+      Comment=""
+      DataType="BOOL"
+      Kind="VarOutput" />
+  </Pou>
+  <Pou
+    Name="TZ_Mng"
+    Moniker="TZ_Mng.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="Idx_In_TZM"
+      Comment="Index used to switch time zone."
+      DataType="DINT"
+      Kind="VarInput" />
+    <Variable
+      Name="Rule_Str_In_TZM"
+      Comment="Time zone rule (STRING) in POSIX format."
+      DataType="STRING"
+      Kind="VarInput" />
+    <Variable
+      Name="Rule_RegArr_In_TZM"
+      Comment="Time zone rule (TZREG_ARRAY_TZM) in POSIX format."
+      DataType="TZREG_ARRAY_TZM"
+      Kind="VarInput" />
+    <Variable
+      Name="Write_TZM"
+      Comment="Writes the correspondent rule of Idx_In_TZM. (works on the edge)"
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="Idx_TZM"
+      Comment="Index of time zone list."
+      DataType="DINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Rule_Str_TZM"
+      Comment="Time zone rule (STRING) in POSIX format."
+      DataType="STRING"
+      Kind="VarOutput" />
+    <Variable
+      Name="Rule_RegArr_TZM"
+      Comment="Time zone rule (TZREG_ARRAY_TZM) in POSIX format."
+      DataType="TZREG_ARRAY_TZM"
+      Kind="VarOutput" />
+    <Variable
+      Name="Name_TZM"
+      Comment="Time zone name."
+      DataType="STRING"
+      Kind="VarOutput" />
+    <Variable
+      Name="Idx_Max_TZM"
+      Comment="Max number/index of time zones."
+      DataType="DINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="CurrDateTime_1"
+      Comment=""
+      DataType="CurrDateTime_TZ"
+      Kind="Var" />
+    <Variable
+      Name="FirstTime"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="PrevYear"
+      Comment=""
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="TZ_Data_1"
+      Comment=""
+      DataType="TZ_Data"
+      Kind="Var" />
+    <Variable
+      Name="TZ_Array"
+      Comment=""
+      DataType="TZ_ARRAY_TZM"
+      Kind="Var" />
+    <Variable
+      Name="TmpRule"
+      Comment=""
+      DataType="STRING"
+      Kind="Var" />
+    <Variable
+      Name="BitArrayToStr_1"
+      Comment=""
+      DataType="RegArrayToStr"
+      Kind="Var" />
+    <Variable
+      Name="GetTZFromRule_1"
+      Comment=""
+      DataType="GetTZFromRule"
+      Kind="Var" />
+    <Variable
+      Name="StrToBitArray_1"
+      Comment=""
+      DataType="StrToRegArray"
+      Kind="Var" />
+    <Variable
+      Name="RTC_TZ_WRITE_1"
+      Comment=""
+      DataType="RTC_TZ_WRITE"
+      Kind="Var" />
+    <Variable
+      Name="ForceWrite"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="RTC_TZ_READ_1"
+      Comment=""
+      DataType="RTC_TZ_READ"
+      Kind="Var" />
+    <Variable
+      Name="NewYear"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="IdxChange"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="RuleChange"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="TON_1"
+      Comment=""
+      DataType="TON"
+      Kind="Var" />
+  </Pou>
+</Manifest>

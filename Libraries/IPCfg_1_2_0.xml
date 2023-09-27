@@ -1,0 +1,173 @@
+﻿<Manifest
+  Version="1.0.1"
+  IsLibrary="true">
+  <Libraries />
+  <Pou
+    Name="IPCFG"
+    Moniker="IPCFG.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="GenNetCfgIn"
+      Comment=""
+      DataType="GEN_IPCFG"
+      Kind="VarInput" />
+    <Variable
+      Name="IPV4CfgIn"
+      Comment=""
+      DataType="IPV4_DATA_IPCFG"
+      Kind="VarInput" />
+    <Variable
+      Name="IPV6CfgIn"
+      Comment=""
+      DataType="IPV6_DATA_IPCFG"
+      Kind="VarInput" />
+    <Variable
+      Name="pGDXCfgIn"
+      Comment=""
+      DataType="pGDX_DATA"
+      Kind="VarInput" />
+    <Variable
+      Name="GenNetCfg"
+      Comment=""
+      DataType="GEN_IPCFG"
+      Kind="VarOutput" />
+    <Variable
+      Name="IPV4Cfg"
+      Comment=""
+      DataType="IPV4_DATA_IPCFG"
+      Kind="VarOutput" />
+    <Variable
+      Name="IPV6Cfg"
+      Comment=""
+      DataType="IPV6_DATA_IPCFG"
+      Kind="VarOutput" />
+    <Variable
+      Name="pGDXCfg"
+      Comment=""
+      DataType="pGDX_DATA"
+      Kind="VarOutput" />
+    <Variable
+      Name="SYS_READ_1"
+      Comment=""
+      DataType="SYS_READ"
+      Kind="Var" />
+    <Variable
+      Name="SYS_READ_2"
+      Comment=""
+      DataType="SYS_READ"
+      Kind="Var" />
+    <Variable
+      Name="SYS_READ_3"
+      Comment=""
+      DataType="SYS_READ"
+      Kind="Var" />
+    <Variable
+      Name="SYS_READ_4"
+      Comment=""
+      DataType="SYS_READ"
+      Kind="Var" />
+    <Variable
+      Name="SYS_READ_5"
+      Comment=""
+      DataType="SYS_READ"
+      Kind="Var" />
+    <Variable
+      Name="SYS_WRITE_1"
+      Comment=""
+      DataType="SYS_WRITE"
+      Kind="Var" />
+    <Variable
+      Name="SYS_WRITE_2"
+      Comment=""
+      DataType="SYS_WRITE"
+      Kind="Var" />
+    <Variable
+      Name="SYS_WRITE_3"
+      Comment=""
+      DataType="SYS_WRITE"
+      Kind="Var" />
+    <Variable
+      Name="SYS_WRITE_4"
+      Comment=""
+      DataType="SYS_WRITE"
+      Kind="Var" />
+    <Variable
+      Name="SYS_WRITE_5"
+      Comment=""
+      DataType="SYS_WRITE"
+      Kind="Var" />
+    <Variable
+      Name="TON_1"
+      Comment=""
+      DataType="TON"
+      Kind="Var" />
+    <Variable
+      Name="R_TRIG_1"
+      Comment=""
+      DataType="R_TRIG"
+      Kind="Var" />
+    <Variable
+      Name="TON_2"
+      Comment=""
+      DataType="TON"
+      Kind="Var" />
+    <Variable
+      Name="TON_3"
+      Comment=""
+      DataType="TON"
+      Kind="Var" />
+    <Variable
+      Name="TON_4"
+      Comment=""
+      DataType="TON"
+      Kind="Var" />
+    <Variable
+      Name="ExtractLSB"
+      Comment=""
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="ShiftBitsBy"
+      Comment=""
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="J"
+      Comment=""
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="Z"
+      Comment=""
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="EnTimer"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="TimeDisableIP"
+      Comment=""
+      DataType="TIME"
+      Kind="Var" />
+    <Variable
+      Name="TimeIntervalReadIP"
+      Comment=""
+      DataType="TIME"
+      Kind="Var" />
+    <Variable
+      Name="ShowTimeout_msk"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+  </Pou>
+</Manifest>

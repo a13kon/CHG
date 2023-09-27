@@ -1,0 +1,9 @@
+<DeploymentView>
+  <DVNodeType Location="0 0" IndexName="Node21681426" Type="CategoryStation" MyWidth="200" Name="WorkStation" DataTemplate="Workstation" />
+  <DVNodeType Location="90 450" IndexName="e5619c74-aed5-4bfa-87ad-8e4823a88b2d" Type="CategoryDevice" MyWidth="200" Name="Project_Template_csuite.Device1" />
+  <DVNodeType Location="20 210" IndexName="Node59978491" Type="CategoryNetwork" MyWidth="230" Name="ETCP1" MyColor="Green" DataTemplate="Network" />
+  <DVNodeType Location="20 260" IndexName="Node6163960" Type="CategoryNetwork" MyWidth="230" Name="USB1" MyColor="DodgerBlue" DataTemplate="Network" />
+  <DVDeviceLinkData From="Node21681426" To="Node59978491" ToSpotX="0.43478260869565216" />
+  <DVDeviceLinkData From="Node21681426" To="Node6163960" ToSpotX="0.17391304347826087" />
+  <DVDeviceLinkData From="e5619c74-aed5-4bfa-87ad-8e4823a88b2d" To="Node6163960" ToSpotX="0.69565217391304346" />
+</DeploymentView>

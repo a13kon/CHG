@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resource FileVersion="200.00.003" Name="Resource1" ResourceNb="1" ElementGuid="aaa250d1-8b67-4330-9ca3-1e445abf6648" Address="@1" Comment="Resources 1" SingleTextLine="Resource Number 1" GenDebugInfo="true" Password="" ReadOnly="false" UsePrjPassword="false" Code="TicCode">
+  <Properties Test="true" TrigCycle="false" CyTiming="500" DeErrors="true" NbStErrors="16" ExecMode="true" EmbedTable="false" TypeEmbedTable="2" EmbedSource="false" TypeEmbedSource="0" SimulationCode="true" SfcGain="8" SfcOffset="18" EmbeddedSfc="false" ReadableImage="false" RealImage="false" LocExp="false" unlab="false" AriOpe="false" BooOpe="false" BooExp="false" GloExp="false" VarCpy="false" Uncod="false" MapFile="false" DumpPou="false" DumpConfig="true" DumpNetwork="false" CompileIncrementally="true" LinkIncrementally="true" CheckArray="true" ArrStr="false" OnlineMemory="32000" OnlineMemoryVariable="2048" MemRetain="RetainRes1" FunctionInternalStateEnable="false" FbdBehaviorMode="1" OnlineMaxExtraPous="20" OnlineMemorySfc="4096" CyUsTiming="0" IsDisableAccessFBLocalVar="true" EnableCVT="false" ReduceBooleanExpressionEvaluation="true" IsIndirectBitAccessValidation="true" />
+  <Pous>
+    <Function Name="AbsHumidity_INT" ElementGuid="e82bb075-f0e0-4081-b086-de8bda783a92" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="AbsHumidity_REAL" ElementGuid="b8c843bf-5a28-4163-a239-13c9a08c8175" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="BarToPsi_INT" ElementGuid="54c723e1-1fa3-4bf1-b8f3-231023c92431" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="BarToPsi_REAL" ElementGuid="1cc12dc9-d45e-49a4-9e3e-6aa7cd307463" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="CelToFahr_INT" ElementGuid="091b10ed-5545-4179-bf35-9a863c95f323" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="CelToFahr_REAL" ElementGuid="d0a8156d-57c0-478d-9be7-fb8e1f106b73" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="CelToFahrDelta_INT" ElementGuid="0a3ef9ba-3879-4f2f-b083-56e8c0ab2514" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="CelToFahrDelta_REAL" ElementGuid="3f0da8dd-200e-4ae1-9e8a-b726fbbdbd44" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="CompensSetp_INT" ElementGuid="2aba8192-3c56-4733-a4b3-e68d094a2874" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="CompensSetp_REAL" ElementGuid="eb839e2e-0b8e-41b7-b60d-03af8eb853a5" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Conv_INT" ElementGuid="4587dfdf-b238-46d8-a1a0-a4495a2ae130" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="Conv_REAL" ElementGuid="44334bd4-ca64-424c-9f00-6200bafa509d" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="ConvHourToMin_INT" ElementGuid="66821537-8785-47b6-9595-418ebfd70c13" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Counter4_INT" ElementGuid="58007913-0815-4c25-888d-48005edcda58" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Counter8_INT" ElementGuid="bc3310c3-cb2b-4222-acac-0abf4ebecf14" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="DewPoint_INT" ElementGuid="4a6bd36e-5c61-47db-abd1-60a14873cc37" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="DewPoint_REAL" ElementGuid="21c810fb-01bb-4f7b-996f-aca28eaf2859" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Eq_REAL" ElementGuid="9c4b3a6d-e848-4f24-9ad0-a5857e736a12" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="FahrToCel_INT" ElementGuid="4f46f7c5-8839-4244-b823-020af10e3db2" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="FahrToCel_REAL" ElementGuid="217e9596-2e8b-4515-b2c6-5bd3a45af0ec" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="FahrToCelDelta_INT" ElementGuid="3804a198-08d3-4f5a-90fc-645ae40c9a0d" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="FahrToCelDelta_REAL" ElementGuid="384351af-f04d-49b5-8775-673bb017c28d" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Limit_INT" ElementGuid="3b02270a-e87c-4e24-a53b-f03dc72e9330" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Limit_REAL" ElementGuid="b307f72a-1dae-42a1-bd89-8db84436953e" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Loge_REAL" ElementGuid="aaa89b44-5c00-4e22-a710-535e8d58a7a8" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Max_INT" ElementGuid="87b6352f-ca94-44a1-953c-362fd9d07ca2" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Max_REAL" ElementGuid="f024645b-7717-45a2-bd4f-e8ad9e6b3158" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Min_INT" ElementGuid="ca994d0e-bb25-4d77-a7d4-f53728611bf1" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Min_REAL" ElementGuid="72a0faa2-4c52-4cec-8f6f-146a44f764a5" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Mux5_INT" ElementGuid="a74a3a72-9f6b-4472-af40-acd017eb7017" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="PsiToBar_INT" ElementGuid="8bf2cd13-9355-48ed-b4e0-6ce0259f1397" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="PsiToBar_REAL" ElementGuid="6d6041b1-a99d-4b62-9a85-d20e9a5db572" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="PressToTemp_INT" ElementGuid="15ac5b5a-ee3b-41f1-b1ee-472164cc4af2" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="PressToTemp_REAL" ElementGuid="03a0932e-c400-46d4-b057-6b267b969f6b" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Range" ElementGuid="11a53c8d-dd64-4bd9-85e8-472fc839e8e3" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="Range_INT" ElementGuid="5aee6ca6-58c9-45ad-b1fd-13f5c3f13de8" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="Range_REAL" ElementGuid="02e09bd1-da10-4cf9-803b-de1c611ed3f9" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="RangeUniv" ElementGuid="6fbd7ffa-c58f-4781-8650-33d2549d9d63" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="RangeUniv_INT" ElementGuid="ac245f93-56c7-42c3-9e73-efe977851688" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="RangeUniv_REAL" ElementGuid="73868ded-1e16-4b78-8c1e-133cdf932afb" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="RealToInt" ElementGuid="46810cdf-6174-410f-ac46-a44764700379" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="RealToDint" ElementGuid="4d321b89-0c1c-4948-9ffc-69d88ab6c957" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="RealToUdint" ElementGuid="a8032397-d6eb-4ed2-a8c8-c4d5b59f66d4" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="RealToUint" ElementGuid="8f7a5fcd-ecbf-47b4-acb5-ae60dfdab380" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="RelHumidity_INT" ElementGuid="e5f3d322-5b62-4a55-9d93-755cbf472b0c" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="RelHumidity_REAL" ElementGuid="2e91c2a8-9528-4cf3-8725-1b3490abb4a4" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Round_REAL" ElementGuid="b96674f8-9d7f-474d-96b2-67de5575d3f4" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Scaler_REAL" ElementGuid="b3f99293-9564-419f-b2df-375ae809020d" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="SchedDailyTime" ElementGuid="ed29e3cf-88ff-4ee0-aa32-1dbbb0a4623d" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="SchedDailyTime_INT" ElementGuid="4d0cde3b-3c2c-4cc5-aec1-c8fd9275b70d" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="SecToTime" ElementGuid="c18e4b27-3380-4a4b-a664-ade32af08c89" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Sel_BOOL" ElementGuid="e10d7ae9-895d-4dea-b92e-753f29878182" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Sel_INT" ElementGuid="d6a1488f-15ea-449d-bdb8-34ef3d6b672e" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Sel_REAL" ElementGuid="a0726243-58bf-4fc7-b0c8-4d8261043933" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Sign_REAL" ElementGuid="9d502372-e27a-4486-93da-3f2773344838" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="TempToPress_INT" ElementGuid="336a87b9-93ad-4f45-881b-5b475633ea9b" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="TempToPress_REAL" ElementGuid="dacd6946-10f9-4d08-9222-bd6d8c768087" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="TimeToSec" ElementGuid="76fab6b8-707c-40f9-8d41-32224d553499" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="VapourSatPress_REAL" ElementGuid="2679bb5d-9e1c-4e37-b0d5-77aa7f093d18" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="WeekDay_UINT" ElementGuid="70b2f4f0-f4d6-4f13-90c4-04b1db836dc2" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="WeekDay_TZ" ElementGuid="a2068c6c-653b-4dba-8fcc-544b4f133f56" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Reverse_MODE" ElementGuid="c799f92f-89b1-43e3-b9b3-fd6798247237" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Heating_MODE" ElementGuid="05e4646f-7351-4ad5-90ae-6926df64e704" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="CheckRetainMem" ElementGuid="ec1b33fe-a296-4382-80b7-64983b0c7421" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="CurrDateTime" ElementGuid="a11eef83-5894-43d4-b5d3-c35a78182592" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="TimeCounter_INT" ElementGuid="96a47bca-ac05-4b5f-bcda-801e6d353bca" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="HoursCounter" ElementGuid="76de9d48-199e-47de-b55d-9360c6a1f1d6" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="Blackout_3" ElementGuid="0c7a549e-7718-4910-b788-e5fcece106c2" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="VersionChk_2" ElementGuid="f1160d87-a96b-4bee-ba1d-c145d7972aba" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="UnitMeas_P_INT" ElementGuid="e2feb09a-ba23-4665-afcc-ca048d7b3fde" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="UnitMeas_P_REAL" ElementGuid="b7c7e12a-cd8d-47aa-bce5-ede8f85fd1f3" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="CurrDateTime_TZ" ElementGuid="015e5f7b-7a02-4a92-bc1e-cc693f950ea6" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="And2Com" ElementGuid="981dd429-7fa4-4319-8197-3eb1c32bf96f" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="And5Com" ElementGuid="09a8db5e-64c6-49fb-b57f-7c873253c7c9" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="And10Com" ElementGuid="a0dbd8c5-9fdf-4e96-ab13-2437edb99277" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="BlinkOnOff_INT" ElementGuid="ff85af24-5eb8-4850-83c9-d74757a1a1a3" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="ConvMinToHour_INT" ElementGuid="a15717d1-e2e6-4b0c-b0d0-0e15e590c465" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="DelayOnOff_INT" ElementGuid="d3cf6c6d-649a-4c3b-88a7-13d50caba3f0" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="DigitConv_INT" ElementGuid="d94f508c-5c98-44c4-8414-4c7fae701fb6" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="Enthalpy_REAL" ElementGuid="a883d60c-5b76-4e85-94f2-fd084baa15c6" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="Enthalpy_INT" ElementGuid="cfc1f3df-38a1-4f1d-b069-4a989e677e99" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="FEdge" ElementGuid="7a0a0330-9a4c-4fba-919b-a494b9ca365a" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="FlipFlop" ElementGuid="3ddfdf25-7326-4fb3-b70c-ffd87681baeb" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="Grad_INT" ElementGuid="0f5d2d71-e56d-4bb6-8dfe-c1ca7c0a71b2" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="Grad_REAL" ElementGuid="0fdea332-7e93-4138-a608-fbae10d31447" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="HysterAdv_REAL" ElementGuid="5e075b6c-83d1-4e52-9900-a79183fdc2ae" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="HysterAdv_INT" ElementGuid="7ffd8eb4-ab16-419d-9cdb-c9d88c20a572" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="Interpolate_REAL" ElementGuid="bf7225ea-e2e1-4150-bc66-5325fb972c99" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="Not2" ElementGuid="fd7e025b-5cb6-4aa3-a410-eaa06c60ec04" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="Not5" ElementGuid="3f88457c-a34f-4912-952e-7e0c8b1ce39e" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="Not10" ElementGuid="6136154c-5c52-446e-a9cd-4e34c84dfa79" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="PulseCounter_INT" ElementGuid="a0cbc752-2f7d-4368-ba04-e1ea29f1cc16" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="REdge" ElementGuid="89287347-5f57-4639-9e73-65841c2f9bf5" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="RFTrig" ElementGuid="0ba6fbe6-6c1d-4988-aea6-47438dbbc66c" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="UnitMeasTemp_REAL" ElementGuid="f5505740-44c0-4bb1-8d75-72347c964c91" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="UnitMeasTemp_INT" ElementGuid="f5d197bc-91cc-4664-b646-149a7997dfb9" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="UnitMeasTempDelta_REAL" ElementGuid="d90f9145-1009-4e08-946d-ad5fb3204e9d" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="UnitMeasTempDelta_INT" ElementGuid="49da0c80-d7ab-4ca5-8fb1-a6fd899d0749" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="CntDwnSafT" ElementGuid="cb3cf395-a403-4455-9ae6-7e148e78a95e" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="IPCFG" ElementGuid="6517dcf5-a5f0-405e-bbe8-ad731d47b74d" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="VersionChk_2_str" ElementGuid="aa1a4ef4-41aa-4fa0-bd2d-d428c0bfb3de" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="TZ_Data" ElementGuid="64970008-eb08-4d1e-b8b9-107b9507fcbe" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="StrToRegArray" ElementGuid="d6f2519b-c94c-45e7-9e3d-0c01d716b094" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="RegArrayToStr" ElementGuid="3a302adb-4836-44e6-b4b6-6cb86cca7090" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="GetTZFromRule" ElementGuid="aa0ac5d0-c515-4e17-9f69-18155896357b" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="TZ_Mng" ElementGuid="0adf0593-de38-44a0-982d-c20dd3e23e65" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="INTEGRALE" ElementGuid="674eff9c-0582-4d08-bd48-fed796c4c285" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="DERIVATIVE1" ElementGuid="da94cad8-4c0d-48a5-bf89-eccd26b30984" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="LIMITER" ElementGuid="4c3ba6a5-fb05-413c-95fc-0e2f2cd4aa7a" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="DEAD_BAND" ElementGuid="951c5263-9ad1-47e8-9893-abadf06aeff8" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="PID_I_Kp" ElementGuid="83100bd6-533d-4e3b-9aaf-992d85a0e203" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="TRIGGER" ElementGuid="1c74fb3d-55ef-4a28-939e-c9ff21aeefbf" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="ExpFilterPID" ElementGuid="e0656261-6fa5-410c-8ddc-51ffbb3df74b" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="PID_Adv_2" ElementGuid="c5516ab3-9d22-4ec8-9817-161f62f3bfd6" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="Func3D" ElementGuid="0882e9f5-9430-43eb-a236-ab70479a4a83" Language="ST" CustomFbd="0" Is1499="false" />
+    <Program Name="NVRAM_Mng" ElementGuid="ed8efe73-eb1f-4724-af65-438e120b9251" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Program Name="GeneralMng" ElementGuid="7a120d2e-a685-464f-92dc-c41fb2a4d679" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Program Name="AlarmMng" ElementGuid="3a3fc04a-be01-4fa4-b845-88be46e69fda" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Program Name="OnOffUnitMng" ElementGuid="30a7fab5-d9cd-4daa-887c-66538951c1bf" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Program Name="HoursCounterMng" ElementGuid="6e8d7634-e570-4e86-9a6a-2445597fb8c9" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Program Name="ImpExpMng" ElementGuid="056236fc-f9d0-4288-8ef0-78590bd9f075" Language="ST" CustomFbd="0" Is1499="false" />
+    <Program Name="BrowserAuth" ElementGuid="4aefc963-a790-4d21-b6d7-6ca67cc852ad" Language="ST" CustomFbd="0" Is1499="false" />
+    <Program Name="IPCfgMng" ElementGuid="1fc13315-1fd4-419c-bf5e-2d166c03b9fe" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Program Name="IO_Mng" ElementGuid="cef58fb2-7e65-436c-9af1-9a674e07b484" Language="ST" CustomFbd="0" Is1499="false" />
+    <Program Name="ProtocolMng" ElementGuid="45267884-7196-4883-b439-f7917ed23edd" Language="ST" CustomFbd="0" Is1499="false" />
+    <Program Name="Sorting" ElementGuid="610054d2-b543-4c75-8c98-6f8d9aab175a" Language="ST" CustomFbd="0" Is1499="false" />
+    <Program Name="Steps" ElementGuid="e5a52b41-292b-4d71-bd99-fb2ffbdc51a9" Language="ST" CustomFbd="0" Is1499="false" />
+    <Program Name="HoursCounterST" ElementGuid="3b09c85b-2dc3-4efa-b524-12b2df7fc4a3" Language="ST" CustomFbd="0" Is1499="false" />
+    <Program Name="ValvePump" ElementGuid="1de63974-eee8-4522-8b6b-9fbf0f16fc7c" Language="ST" CustomFbd="0" Is1499="false" />
+    <Program Name="PowerCtrl" ElementGuid="b2b5f0bb-e110-4e1c-b193-f1aaf1c067da" Language="ST" CustomFbd="0" Is1499="false" />
+    <Program Name="Alarm_Mng" ElementGuid="1d51cd6f-8bcc-48af-b0f8-070e6dedd1d6" Language="ST" CustomFbd="0" Is1499="false" />
+    <Program Name="Mask_Mng" ElementGuid="d2200886-b549-44e1-bd53-c5209c9ea761" Language="ST" CustomFbd="0" Is1499="false" />
+  </Pous>
+  <NetworkParameterValues>
+    <NetworkParameterValue NetworkName="HSD" Name="ValidityTime" Value="0" />
+    <NetworkParameterValue NetworkName="ETCP" Name="TimeOut" Value="10000" />
+  </NetworkParameterValues>
+  <GlobalVars>
+    <Variable Name="__SYSVA_KEY_COUNTER" DataType="INT" InitialValue="" Comment="Key pressed time" Address="" Modifier="NonRetain" Kind="VarGlobal" Alias="" AccessRights="ReadWrite" Attributes="32501" />
+    <Variable Name="__SYSVA_CURSOR_ROW" DataType="INT" InitialValue="" Comment="Display cursor current Y coordinate" Address="" Modifier="NonRetain" Kind="VarGlobal" Alias="" AccessRights="ReadWrite" Attributes="32501" />
+    <Variable Name="__SYSVA_CURSOR_COLUMN" DataType="INT" InitialValue="" Comment="Display cursor current X coordinate" Address="" Modifier="NonRetain" Kind="VarGlobal" Alias="" AccessRights="ReadWrite" Attributes="32501" />
+    <Variable Name="__SYSVA_CURSOR_VAR" DataType="INT" InitialValue="" Comment="Display cursor for scrolling lists" Address="" Modifier="NonRetain" Kind="VarGlobal" Alias="" AccessRights="ReadWrite" Attributes="32501" />
+    <Variable Name="__SYSVA_TMP_VALUE" DataType="UDINT" InitialValue="" Comment="Temp value for field editing" Address="" Modifier="NonRetain" Kind="VarGlobal" Alias="" AccessRights="ReadWrite" Attributes="32501" />
+    <Variable Name="__SYSVA_KEY_PRESSED" DataType="USINT" InitialValue="" Comment="Key pressed flag" Address="" Modifier="NonRetain" Kind="VarGlobal" Alias="" AccessRights="ReadWrite" Attributes="32501" />
+    <Variable Name="__SYSVA_MANUAL_BUZZER_OFF" DataType="USINT" InitialValue="" Comment="Deactivates the alarm buzzer when it has been released from integrated alarm management" Address="" Modifier="NonRetain" Kind="VarGlobal" Alias="" AccessRights="ReadWrite" Attributes="32501" />
+    <Variable Name="__SYSVA_MANUAL_BUZZER_ON" DataType="USINT" InitialValue="" Comment="Activates the buzzer when controlled manually" Address="" Modifier="NonRetain" Kind="VarGlobal" Alias="" AccessRights="ReadWrite" Attributes="32501" />
+    <Variable Name="__SYSVA_BEEP_ON" DataType="USINT" InitialValue="" Comment="Activates the buzzer for a while" Address="" Modifier="NonRetain" Kind="VarGlobal" Alias="" AccessRights="ReadWrite" Attributes="32501" />
+    <Variable Name="StartupJmp" DataType="BOOL" InitialValue="TRUE" Comment="Startup jump enable" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Al_retain" DataType="ALM" InitialValue="" Comment="Automatic generated by Alarm editor" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Al_Err_retain_write" DataType="ALM" InitialValue="" Comment="Automatic generated by Alarm editor" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="ImpExpJmp" DataType="BOOL" InitialValue="" Comment="Application jump due to Import/Export operation" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="MemError" DataType="BOOL" InitialValue="" Comment="Automatically generated" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="ErrRetainWrite" DataType="SYSREAD_VALUEOUT" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="MemWritingsNo" DataType="UDINT" InitialValue="" Comment="Automatically generated" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="DriveTyp" DataType="BYTE" InitialValue="" Comment="Drive type (0: Internal public volume; 1: USB pendrive)" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="UnitOn" DataType="BOOL" InitialValue="" Comment="Unit On status: TRUE = Unit ON" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="UnitOff" DataType="BOOL" InitialValue="" Comment="Unit Off status: TRUE = Unit OFF" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="UnitStatus" DataType="DINT" InitialValue="" Comment="Unit status" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="STD_UOM_ZONE_UI" DataType="UDINT" InitialValue="" Comment="User Interface unit of measure" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="PwrOffDate_BLKO_1" DataType="UDINT" InitialValue="" Comment="Date of the last power off expressed in seconds (Unix Timestamp, seconds from January 1st 1970) " Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="En_WipeMem" DataType="BOOL" InitialValue="" Comment="Enable the wipe memory operation" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="SetP" DataType="REAL" InitialValue="15.0" Comment="Setpoint" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="STD_UOM_ZONE_WEB" DataType="USINT" InitialValue="1" Comment="WEB Interface unit of measure" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="PwdUser" DataType="UINT" InitialValue="0000" Comment="User password" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="PwdService" DataType="UINT" InitialValue="1703" Comment="Service password" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="RESERVED1" DataType="UINT" InitialValue="1310" Comment="RESERVED" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="AlrmOnOff" DataType="BOOL" InitialValue="" Comment="Unit On/Off by alarms" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="STD_UOM_ZONE_MOPL" DataType="USINT" InitialValue="1" Comment="MOPL protocol interface unit of measure" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="language" DataType="USINT" InitialValue="1" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="N_Alarm" DataType="DINT" InitialValue="" Comment="Numbers of actual alarms" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="AlarmLogReset" DataType="BOOL" InitialValue="" Comment="Reset the alarm log" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="TestAlrm" DataType="BOOL" InitialValue="" Comment="Alarm to be used for test purposes (Connected to retainWrote)" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="N_Alrms" DataType="DINT" InitialValue="" Comment="Number of actual alarms" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="GlbAlrm" DataType="BOOL" InitialValue="" Comment="Global alarms (at least one active alarm)" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Buzzer" DataType="BOOL" InitialValue="" Comment="Status of the Buzzer" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Pwd" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Chill" DataType="STCT_CHILL" InitialValue="" Comment=" Структура чиллеров" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="(2(0),2(0),0,0,3(0),2(1),2(0),0,1,6(0),0,0,0,(88(0)),0,9(0),2(0),0,0,0,0),(2(0),2(0),0,0,3(0),2(1),2(0),0,1,6(0),0,0,0,(88(0)),0,9(0),2(0),0,0,0,0),(2(0),2(0),0,0,3(0),2(1),2(0),0,1,6(0),0,0,0,(88(0)),0,9(0),2(0),0,0,0,0),(2(0),2(0),0,0,3(0),2(1),2(0),0,1,6(0),0,0,0,(88(0)),0,9(0),2(0),0,0,0,0),(2(0),2(0),0,0,3(0),2(1),2(0),0,1,6(0),0,0,0,(88(0)),0,9(0),2(0),0,0,0,0),(2(0),2(0),0,0,3(0),2(1),2(0),0,1,6(0),0,0,0,(88(0)),0,9(0),2(0),0,0,0,0)" CommentFields="" Attributes="0" GroupName="">
+      <Dimension Lower="0" Upper="5" />
+    </Variable>
+    <Variable Name="NeedToSort" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="KpMain" DataType="REAL" InitialValue="10.0" Comment="П текущая" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="KpStart" DataType="REAL" InitialValue="10.0" Comment="П старотовая" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="SemiCriticalErrList_Enable" DataType="ARR_SEMI_CRIT_ERR" InitialValue="TRUE,,TRUE,,TRUE,,TRUE,,TRUE" Comment="" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="88(1)" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="TotalChill" DataType="BYTE" InitialValue="6" Comment="Общее кол-во чиллеров в группе" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="AutoAlign" DataType="BOOL" InitialValue="" Comment="Автовыравнивание" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="TiMain" DataType="REAL" InitialValue="300.0" Comment="И текущая" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="TiStart" DataType="REAL" InitialValue="150.0" Comment="И стартовая" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Al_LowFlow" DataType="ALM" InitialValue="" Comment="Automatic generated by Alarm editor" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="CurrentRow" DataType="DINT" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="TotalPower" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="CountOn" DataType="BYTE" InitialValue="" Comment="Кол-во включенных" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="TdMain" DataType="REAL" InitialValue="5.0" Comment="Д текущая" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="TdStart" DataType="REAL" InitialValue="5.0" Comment="Д стартовая" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Al_HighFlow" DataType="ALM" InitialValue="" Comment="Automatic generated by Alarm editor" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="RowNumber" DataType="DINT" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="CountNP" DataType="BYTE" InitialValue="" Comment="Normal priority" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="TotalMainChill" DataType="BYTE" InitialValue="3" Comment="Макс кол-во одновременно работающих чиллеров" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="KpWork" DataType="REAL" InitialValue="20.0" Comment="П рабочая" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Al_Sensor1" DataType="ALM" InitialValue="" Comment="Automatic generated by Alarm editor" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="EditRow" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="CountBP" DataType="BYTE" InitialValue="" Comment="Block priority" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="TempIn" DataType="REAL" InitialValue="" Comment="Температура входящая основная (вход или выход)" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="TiWork" DataType="REAL" InitialValue="300.0" Comment="И рабочая" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Al_Sensor2" DataType="ALM" InitialValue="" Comment="Automatic generated by Alarm editor" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="RowDiscr" DataType="DINT" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="TdWork" DataType="REAL" InitialValue="5.0" Comment="Д рабочая" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="TempOut" DataType="REAL" InitialValue="" Comment="Температура для каскада (выход)" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="PageControl" DataType="DINT" InitialValue="1" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="DownTime" DataType="UDINT" InitialValue="30" Comment="Время простоя мин" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="TimeToSwapPID" DataType="UDINT" InitialValue="10" Comment="Время смены параметров ПИД мин" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="UseCascade" DataType="BOOL" InitialValue="FALSE" Comment="Использовать каскадное регулирование" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="old_PageControl" DataType="DINT" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="RotationTime" DataType="UDINT" InitialValue="10" Comment="Время ротации ч" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="UseTOut" DataType="BOOL" InitialValue="FALSE" Comment="Использовать датчик выходной темп" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="CountValve" DataType="BYTE" InitialValue="" Comment="Подсчет открытых клапанов" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FeedbackPower" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="TOTime" DataType="UINT" InitialValue="1000" Comment="Время до ТО ч" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="CountPump" DataType="BYTE" InitialValue="" Comment="Подсчет включенных насосов" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="ReqPower" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="CountAlarm" DataType="BYTE" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="UseLocalPump" DataType="BOOL" InitialValue="TRUE" Comment="Использовать локальный насос" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="ExtTerm" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="UseValves" DataType="BOOL" InitialValue="TRUE" Comment="Использование соленоидов" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="TotalKWt" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="UnivCh" DataType="UNIV_CH_PARAMS" InitialValue=",,,,,,,,(,2(),,2(),,0.0),(,2(),,2(),,0.0)" Comment="Universal channel parameters" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="(0,2(1),0,2(1),1,0),(0,2(1),0,2(1),1,0),(0,2(1),0,2(1),1,0),(0,2(1),0,2(1),1,0),(0,2(1),0,2(1),1,0),(0,2(1),0,2(1),1,0),(0,2(1),0,2(1),1,0),(0,2(1),0,2(1),1,0),(0,2(1),0,2(1),1,1),(0,2(1),0,2(1),1,1)" CommentFields="" Attributes="0" GroupName="">
+      <Dimension Lower="0" Upper="9" />
+    </Variable>
+    <Variable Name="CutPower" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="DOut" DataType="DOUT_CH_PARAMS" InitialValue="" Comment="Digital ouput channel parameters" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="(0,1,0,2(0)),(0,1,0,2(0)),(0,1,0,2(0)),(0,1,0,2(0)),(0,1,0,2(0)),(0,1,0,2(0))" CommentFields="" Attributes="0" GroupName="">
+      <Dimension Lower="0" Upper="5" />
+    </Variable>
+    <Variable Name="EnPowerSave" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="CountLP" DataType="BYTE" InitialValue="" Comment="Low priority" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="ShtDownKWt" DataType="REAL" InitialValue="350.0" Comment="Работа регулирования" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="CountFree" DataType="BYTE" InitialValue="" Comment="Доступные для ротации чиллеры" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="WarningKWt" DataType="REAL" InitialValue="50.0" Comment="Предупреждение о скором регулировании" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="UseLP_Rotation" DataType="BOOL" InitialValue="" Comment="Использовать низкий приоритет для ротации" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="WarningPowerSave" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="KpPS" DataType="REAL" InitialValue="10.0" Comment="" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="TiPS" DataType="REAL" InitialValue="300.0" Comment="" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Al_WarningPowerSave" DataType="ALM" InitialValue="" Comment="Automatic generated by Alarm editor" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+  </GlobalVars>
+  <Devices />
+  <ExportedGroups />
+  <ImportedGroups />
+  <Groups />
+</Resource>

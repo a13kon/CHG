@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Worksheet Name="04_Settings" Version="1.0.0">
+  <Mask Name="EnRebootIPCfg" Type="Normal" X="0" Y="0" Color="211, 211, 211">
+    <Fields>
+      <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="IPCfgRebootDummy" Format="ib" Min="0" Max="1" />
+      <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+      <Field Type="Text" Name="Text" Row="0" Column="1" Content="HacÄÃoÉ¾¼ c¸Ä¼" />
+      <Field Type="Text" Name="Text_2" Row="3" Column="0" Content="§¸¿a¸Ä¸ Á¸Ã¸ÊaºÃÅÊ¼ÄÎ" />
+      <Field Type="Text" Name="Text_3" Row="4" Column="0" Content="¾oúÄÃo¿¿¸Ã ¼ ÁÃ¼À¸ú¼ÄÎ" />
+      <Field Type="Text" Name="Text_4" Row="5" Column="0" Content="ÁaÃaÀ¸ÄÃË c¸ÉÂac?" />
+      <Field Type="Variable" Name="Variable" Row="6" Column="19" Content="IPCfgMng.GenNetCfg.EnReboot" Class="IPCfg_EnReboot" Format="io1" Min="0" Max="1" SimulationValue="0" />
+    </Fields>
+    <KeyBindings>
+      <KeyBinding Key="ESC" BindOn="IPCFG_Reboot_ESC" />
+    </KeyBindings>
+  </Mask>
+  <Loop Name="DATETIME" X="0" Y="1">
+    <Mask Name="DateTimeChg" Type="Normal" X="0" Y="2" Color="LightCoral">
+      <Fields>
+        <Field Type="Text" Name="Text_1" Row="3" Column="16" Content="/" />
+        <Field Type="Text" Name="Text_5" Row="3" Column="19" Content="/" />
+        <Field Type="Variable" Name="Variable_9" Row="4" Column="17" Content="GeneralMng.MinuteIn" Class="EnDateChg" Format="io2z" Min="0" Max="59" />
+        <Field Type="Variable" Name="Variable_10" Row="4" Column="14" Content="GeneralMng.HourIn" Class="EnDateChg" Format="io2z" Min="0" Max="24" />
+        <Field Type="Text" Name="Text_6" Row="4" Column="16" Content=":" />
+        <Field Type="Text" Name="Text_7" Row="0" Column="1" Content="£aÄa ¼ ÆÃ¸ÀÓ" />
+        <Field Type="Text" Name="Text_8" Row="4" Column="19" Content=":" />
+        <Field Type="Variable" Name="Variable_11" Row="4" Column="20" Content="GeneralMng.SecondIn" Class="EnDateChg" Format="io2z" Min="0" Max="59" />
+        <Field Type="Image" Name="Image_1" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Text" Name="Text_2" Row="3" Column="0" Content="£aÄa:" />
+        <Field Type="Text" Name="Text_3" Row="4" Column="0" Content="­Ã¸ÀÓ:" />
+        <Field Type="Variable" Name="Variable_1" Row="0" Column="0" Content="dummy" Class="DummyService" Format="ib" Min="0" Max="1" />
+        <Field Type="Variable" Name="Variable_2" Row="5" Column="11" Content="GeneralMng.DayOfWeek" Class="DayOfWeek" Format="o1" Min="0" Max="9" SimulationValue="1" />
+        <Field Type="Text" Name="Text_4" Row="2" Column="0" Content="ýoÃÀaÄ:" />
+        <Field Type="Variable" Name="Variable_3" Row="2" Column="14" Content="GeneralMng.DateFormat" Class="DateFormat" Format="io1" Min="0" Max="2" SimulationValue="1" />
+        <Field Type="Text" Name="Text_9" Row="5" Column="0" Content="£¸úÎ:" />
+        <Field Type="Variable" Name="Variable" Row="3" Column="14" Content="GeneralMng.DayIn" Min="1" Max="31" Class="EnDateDDMMYY" Format="io2z" />
+        <Field Type="Variable" Name="Variable_4" Row="3" Column="14" Content="GeneralMng.MonthIn" Min="1" Max="12" Class="EnDateMMDDYY" Format="io2z" />
+        <Field Type="Variable" Name="Variable_5" Row="3" Column="14" Content="GeneralMng.YearIn" Min="0" Max="99" Class="EnDateYYMMDD" Format="io2z" />
+        <Field Type="Variable" Name="Variable_6" Row="3" Column="17" Content="GeneralMng.MonthIn" Min="1" Max="12" Class="EnDateDDMMYY" Format="io2z" />
+        <Field Type="Variable" Name="Variable_7" Row="3" Column="17" Content="GeneralMng.DayIn" Min="1" Max="31" Class="EnDateMMDDYY" Format="io2z" />
+        <Field Type="Variable" Name="Variable_8" Row="3" Column="20" Content="GeneralMng.YearIn" Min="0" Max="99" Class="EnDateDDMMYY" Format="io2z" />
+        <Field Type="Variable" Name="Variable_12" Row="3" Column="20" Content="GeneralMng.YearIn" Min="0" Max="99" Class="EnDateMMDDYY" Format="io2z" />
+        <Field Type="Variable" Name="Variable_13" Row="3" Column="20" Content="GeneralMng.DayIn" Min="1" Max="31" Class="EnDateYYMMDD" Format="io2z" />
+        <Field Type="Variable" Name="Variable_14" Row="3" Column="17" Content="GeneralMng.MonthIn" Min="1" Max="12" Class="EnDateYYMMDD" Format="io2z" />
+      </Fields>
+      <KeyBindings>
+        <KeyBinding Key="DOWN" BindOn="Move_DOWN" />
+        <KeyBinding Key="UP" BindOn="Move_UP" />
+      </KeyBindings>
+    </Mask>
+  </Loop>
+  <Loop Name="PWDMNG" X="1" Y="1">
+    <Mask Name="PwdChg" Type="Normal" X="1" Y="2" Color="255, 190, 192">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Image" Name="Image_1" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Text" Name="Text_1" Row="0" Column="1" Content="¦ÊÀ¸ú¸ú¼¸ ÁaÃo¿Ó" />
+        <Field Type="Image" Name="Image_2" Row="1" Column="7" Content="Key_36x16.bmp" />
+        <Field Type="Image" Name="Image_3" Row="7" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Variable" Name="Variable_1" Row="4" Column="18" Content="PwdUser" Class="PwdChgU" Format="io4z" Min="0" Max="9999" />
+        <Field Type="Variable" Name="Variable_2" Row="5" Column="18" Content="PwdService" Class="PwdChgS" Format="io4z" Min="0" Max="9999" />
+        <Field Type="Variable" Name="Variable_3" Row="6" Column="18" Content="RESERVED1" Class="PwdChgM" Format="io4z" Min="0" Max="9999" />
+        <Field Type="Text" Name="Text_2" Row="4" Column="0" Content="ªo¿ÎÊoÆaÄ¸¿Î:" />
+        <Field Type="Text" Name="Text_3" Row="5" Column="0" Content="­¸ÃÆ¼c:" />
+        <Field Type="Text" Name="Text_4" Row="6" Column="0" Content="ªÃo¼ÊÆo·¼Ä¸¿Î:" />
+      </Fields>
+      <KeyBindings>
+        <KeyBinding Key="ENTER" BindOn="ChgPwd" />
+        <KeyBinding Key="DOWN" BindOn="DecrDig" />
+        <KeyBinding Key="UP" BindOn="IncrDig" />
+      </KeyBindings>
+    </Mask>
+  </Loop>
+  <Loop Name="INITIALIZATION" X="2" Y="1">
+    <Mask Name="AlrmInit" Type="Normal" X="2" Y="2" Color="255, 228, 225">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="DummyManuf" Format="ib" Min="0" Max="1" SimulationValue="" />
+        <Field Type="Image" Name="Image_1" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Text" Name="Text_1" Row="7" Column="1" Content="OÂ¼cÄ¼ÄÎ ½ÅÃúa¿?" />
+        <Field Type="Variable" Name="Variable_1" Row="7" Column="18" Content="AlrmLogDelete" Class="AlarmLogDelete" Format="iob" Min="0" Max="1" SimulationValue="0" />
+        <Field Type="Text" Name="Text_3" Row="0" Column="1" Content="¦ú¼¶¼a¿¼Êa¶¼Ó" />
+        <Field Type="Text" Name="Text_6" Row="4" Column="0" Content=" " />
+        <Field Type="Variable" Name="Variable" Row="2" Column="18" Content="GeneralMng.Address_BMS2" Min="0" Max="255" Class="CL_UINT" Format="io3" />
+        <Field Type="Text" Name="Text" Row="2" Column="1" Content="A·Ã¸c Æ c¸Ä¼:" />
+        <Field Type="Text" Name="Text_2" Row="3" Column="1" Content="C¾oÃocÄÎ:      19200" />
+        <Field Type="Text" Name="Text_4" Row="4" Column="1" Content="CÄoÁ-µ¼Ä:          1" />
+        <Field Type="Text" Name="Text_5" Row="5" Column="1" Content="«¸ÄúocÄÎ:        ú¸Ä" />
+      </Fields>
+      <KeyBindings />
+    </Mask>
+  </Loop>
+  <Mask Name="RebootingIPCfg" Type="Normal" X="2" Y="0" Color="211, 211, 211">
+    <Fields>
+      <Field Type="Text" Name="Text" Row="2" Column="4" Content="ª¸Ã¸ÊaºÃÅÊ¾a..." />
+      <Field Type="Text" Name="Text_2" Row="5" Column="0" Content="ªo½a¿ÅÉcÄa, Áo·o½·¼Ä¸" />
+    </Fields>
+    <KeyBindings>
+      <KeyBinding Key="ALARM" BindOn="DoNothing" />
+      <KeyBinding Key="DOWN" BindOn="DoNothing" />
+      <KeyBinding Key="ENTER" BindOn="DoNothing" />
+      <KeyBinding Key="ESC" BindOn="DoNothing" />
+      <KeyBinding Key="PRG" BindOn="DoNothing" />
+      <KeyBinding Key="UP" BindOn="DoNothing" />
+    </KeyBindings>
+  </Mask>
+  <Mask Name="ErrorIPCfg" Type="Normal" X="1" Y="0" Color="211, 211, 211">
+    <Fields>
+      <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="IPCfgErrDummy" Format="ib" Min="0" Max="1" />
+      <Field Type="Text" Name="Text_2" Row="0" Column="1" Content="NET Configuration" />
+      <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+      <Field Type="Variable" Name="Variable_2" Row="5" Column="0" Content="IPCfgMng.GenNetCfg.SysErr" Class="SystemErrorsMsg" Format="o2" Min="0" Max="99" SimulationValue="10" />
+      <Field Type="Text" Name="Text" Row="2" Column="0" Content="ERROR OCCURRED" />
+    </Fields>
+  </Mask>
+  <Mask Name="SettingsIPCfg" Type="Normal" X="3" Y="0" Color="211, 211, 211">
+    <Fields>
+      <Field Type="Text" Name="Text_3" Row="0" Column="1" Content="NET Settings" />
+      <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+      <Field Name="Variable_2" Type="Variable" Content="dummy" Column="0" Row="0" Class="IPCfgDummySettings" Format="ib" Min="0" Max="1" />
+      <Field Type="Text" Name="Text" Row="2" Column="0" Content="IP reading:" />
+      <Field Type="Text" Name="Text_2" Row="1" Column="0" Content="Disable continuous" />
+      <Field Type="Text" Name="Text_4" Row="4" Column="0" Content="Read IP every:" />
+      <Field Type="Variable" Name="Variable" Row="2" Column="19" Content="IPCfgMng.GenNetCfg.DisableConstantReading" Min="0" Max="1" Class="IPCfg_EnContinuousReading" Format="iob" SimulationValue="0" />
+      <Field Type="Variable" Name="Variable_3" Row="4" Column="17" Content="IPCfgMng.GenNetCfg.IntervalReadIP_msk" Class="CL_UDINT" Format="io2" Min="5" Max="60" SimulationValue="15" />
+      <Field Type="Text" Name="Text_5" Row="4" Column="19" Content="sec" />
+      <Field Type="Variable" Name="Variable_4" Row="6" Column="15" Content="IPCfgMng.GenNetCfg.DisableIP_msk" Class="IPCfgShowTimeout" Format="io4" Min="5" Max="1440" SimulationValue="5" />
+    </Fields>
+    <KeyBindings>
+      <KeyBinding Key="ESC" BindOn="IPCFG_Settings_ESC" />
+      <KeyBinding Key="PRG" BindOn="DoNothing" />
+      <KeyBinding Key="ALARM" BindOn="DoNothing" />
+    </KeyBindings>
+    <ResourceUsedOnBool>
+      <Index Value="0" Content="Yes" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="No" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnBool>
+  </Mask>
+</Worksheet>

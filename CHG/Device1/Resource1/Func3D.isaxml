@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Pou FileVersion="200.00.003" Name="Func3D" ElementGuid="0882e9f5-9430-43eb-a236-ab70479a4a83" Comment="" SingleTextLine="" Language="ST" CustomFbd="0" Localization="Prj" GroupName="(User defined)" Password="E4BDBA2BEF6CC4DC" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="true" Is1499="false">
+  <FunctionBlock IdentifierNb="0" Keyword="" InitInstance="false" SymbMonExtraBytes="128" />
+  <LocalVars>
+    <Variable Name="Enable" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" CommentFields="" Attributes="0" />
+    <Variable Name="TotalX" DataType="DINT" InitialValue="" Comment="Кол-во столбцов по Х (верхняя шапка таблицы) макс 16 счет с 0" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" CommentFields="" Attributes="0" />
+    <Variable Name="X" DataType="REAL" InitialValue="" Comment="Показания с датчика темп испарения" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" CommentFields="" Attributes="0" />
+    <Variable Name="XHeadArr" DataType="REAL" InitialValue="" Comment="Значения Х (верхняя шапка таблицы)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" CommentFields="" Attributes="0">
+      <Dimension Lower="0" Upper="127" />
+    </Variable>
+    <Variable Name="Y" DataType="REAL" InitialValue="" Comment="показания с датчика температуры конденсации" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" CommentFields="" Attributes="0" />
+    <Variable Name="YHeadArr" DataType="REAL" InitialValue="" Comment="массив значений температуры конденсации (Y (левая) шапка таблицы)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" CommentFields="" Attributes="0">
+      <Dimension Lower="0" Upper="127" />
+    </Variable>
+    <Variable Name="ZHeadArr" DataType="Nums_Arr" InitialValue="" Comment="двумерный массив со значениями мощности. В каждом i массиве таблица соответствия (тело таблицы)" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" CommentFields="" Attributes="0" />
+    <Variable Name="Result" DataType="REAL" InitialValue="" Comment="Результат" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Output" CommentFields="" Attributes="0" />
+    <Variable Name="i" DataType="DINT" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" CommentFields="" Attributes="0" />
+    <Variable Name="YDot" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" CommentFields="" Attributes="0">
+      <Dimension Lower="0" Upper="127" />
+    </Variable>
+    <Variable Name="Y1Dot" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" CommentFields="" Attributes="0">
+      <Dimension Lower="0" Upper="127" />
+    </Variable>
+    <Variable Name="XArr" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" CommentFields="" Attributes="0">
+      <Dimension Lower="0" Upper="127" />
+    </Variable>
+    <Variable Name="Interpolate_REAL_1" DataType="Interpolate_REAL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" CommentFields="" Attributes="0" />
+    <Variable Name="YArr" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" CommentFields="" Attributes="0">
+      <Dimension Lower="0" Upper="127" />
+    </Variable>
+    <Variable Name="minX" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" CommentFields="" Attributes="0" />
+    <Variable Name="maxX" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" CommentFields="" Attributes="0" />
+    <Variable Name="minY" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" CommentFields="" Attributes="0" />
+    <Variable Name="maxY" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" CommentFields="" Attributes="0" />
+  </LocalVars>
+  <PouBody><![CDATA[gFQnV1NbWi9dZGUTZGofaWwxMzU3g1NLR1dLTk4ehklLQEkhRjSqZjdHDwtJB+RLS1ciRG4gpmlhI1ZJRQ/JDw1RZ3J1LbA/OSMyLzB6yQ8NUUdVVROKPgkJR09EHo1DPw4IDApp7iXUnNK/0PkVhNS5ItGzkETVtNO/0biQQtSPI9KkIGvtCA5FTVMgKP44JDMiVU9hkGpwYm5ZLXDkR10jMyFEDskPDUpEISgZ5Ds5I1pJZSCgRHZxWWhdYYVLQCNaITxhnE1hYmZAcjOfbCQoIjBdaORRTEZMDApIzS0uI9KT0P/k1bbSgtG1kXjVsdO/0b2QT9WxI9K90PEVhNWC0rnQ8xWOJFpGbnRhFL0kWjNFbzXk1IXTvNCFkETVtNO/0I+RcdW4I9K20PwUtdWE0rTQ/BS91Ywi0bSRdtSH077RtZBE1bnTvNGzkXol1L/SsdHAFYTUu9Kz0PHk1bYj0rzQ8RS81LfStND8FLjUvdK9IJFw1bzTstG/kXTVs9O80b2RcSVcIygoDUvNDF1HbXU6fORfTGZjZUEztl5tXjkMCkjNXDVHbXU6fORfTGZjZUEztl5tIykhMRz/CA4KCykqYRSX1L0i0bKQRNWx077RtZF51bnSidG5kXEl1LzStNHBFLDUv9K00PwUuNWI0rQgkXPVtNO90biQRdSP07DRsJFx1bgj0rLRwRS11L7SudHHFY4oI9KzIJF+1brSgNG+kETUj9O3IdDzFYDUvdK10PkVhyRbIispTM4MDVtDc3Ia9Fg+PiJZSCSlYUVxcFppHP8IDgoLWUEztl41Xjg8IBmMYGVnQ3NyGq0lLyMzXDtMzgwNKygh0NYUtdSx0rTRwRWN1LPStND95NSC07rRupF/KSTTt9CBkX/VvCPSvNDxFY3UuNK5IJF31ITTstG9kXzUgtKJIVhh7iwJCQsIRRmNUT8OCAhFD4BaTUU5DAoEikFbRU1TO0zOCA4rKCHQ2RS41YHStNHBFLrUvdK60PkVhdWA0rTQ/eTVn9OX0ZKRZ9WqI9Ky0cEUtdS+0rnRxxWGJNO80IKRedW60oPRuJBG1bHTudCMkXnVuiNaISpoyQ9NbXZkcjGraWV3Z15SBIVJWzIqWCxhnU1hYmZAcjPoJV1HbXUsYfcsPw4IWEEztl40Xjg8IAiqcWFxcm5sILBgW1FHQEwe9StLdnY6DUvJDywpItGYkXnUhtO30ICRe9W607nRuJBE1IfTt9G8YRSa1KPSkdDTFKbUrSLRs5BE1bTTv9G4kELUhyPSv9HDFLjUvdOA0PkVh9S20rrRzRS41L0iWSBr7QgOSmx1ZTO0amhidmRfE4FESFwzKVlt5FxMZmNlQTO2KSRaM0VvNeglNyo5DAoYhXd2WDNcOnzkTGp3Z3NwLqhkcGZdU0UAiFo1LU10dHrJDwkJKisgkVzVudKA0bWQRNW707zRu5F81ITSgdG1kXglXSPSv9HDFLjUvdOA0PkVh9S20rrRzRS41L0iWSBr7QgOSmx1ZTO0amhidmRfE4FESFwzKVht5F1FcXAtIBiFd3YvIjApeskPVmZxdGw1/jgkSmx1ZTO0amhidmRfE4FESFwzL080sD4JCUdPRB6CUEpAVkhPD5tHSExBSg==]]></PouBody>
+  <PouUIProperties><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxSb290IFZlcnNpb249IjciPg0KICA8TGFuZ3VhZ2VDb250YWluZXJTdHlsZSBDb21tZW50VGV4dENvbG9yPSJHcmVlbiIgQ29tbWVudEZvbnQ9IkNvdXJpZXIgTmV3LCAxMHB0IiBQb25jdHVhdGlvblRleHRDb2xvcj0iQmxhY2siIFBvbmN0dWF0aW9uRm9udD0iQ291cmllciBOZXcsIDEwcHQiIElkZW50aWZpZXJUZXh0Q29sb3I9IkJsYWNrIiBJZGVudGlmaWVyRm9udD0iQ291cmllciBOZXcsIDEwcHQiIE9wZXJhdG9yVGV4dENvbG9yPSJCbGFjayIgT3BlcmF0b3JGb250PSJDb3VyaWVyIE5ldywgMTBwdCIgUmVzZXJ2ZWRXb3JkVGV4dENvbG9yPSJCbHVlIiBSZXNlcnZlZFdvcmRGb250PSJDb3VyaWVyIE5ldywgMTBwdCIgUG91VGV4dENvbG9yPSJCbHVlVmlvbGV0IiBQb3VGb250PSJDb3VyaWVyIE5ldywgMTBwdCIgTnVtYmVyVGV4dENvbG9yPSJEYXJrUmVkIiBOdW1iZXJGb250PSJDb3VyaWVyIE5ldywgMTBwdCIgU3RyaW5nVGV4dENvbG9yPSJEYXJrUmVkIiBTdHJpbmdGb250PSJDb3VyaWVyIE5ldywgMTBwdCIgRWRpdG9yVGV4dEFyZWFCYWNrZ3JvdW5kQ29sb3I9IldoaXRlIiBFZGl0b3JGb250PSJDb3VyaWVyIE5ldywgMTBwdCIgSW5kZXg9IjAiIC8+DQo8L1Jvb3Q+]]></PouUIProperties>
+</Pou>

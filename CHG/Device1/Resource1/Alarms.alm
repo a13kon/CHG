@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Alarms UnitConversionZone="STD_UOM_ZONE_UI">
+  <Alarm Name="Al_retain" Type="ManualReset" Trigger="Al_retain.Trigger" Active="Al_retain.Active" StorVar1="MemWritingsNo" Description="Error in the number of retain memory writings" />
+  <Alarm Name="Al_Err_retain_write" Type="ManualReset" Trigger="Al_Err_retain_write.Trigger" Active="Al_Err_retain_write.Active" Description="Error in retain memory writings" />
+  <Alarm Name="Al_Sensor1" Type="AutoReset" Trigger="Al_Sensor1.Trigger" Active="Al_Sensor1.Active" />
+  <Alarm Name="Al_Sensor2" Type="AutoReset" Trigger="Al_Sensor2.Trigger" Active="Al_Sensor2.Active" />
+  <Alarm Name="Al_LowFlow" Type="ManualReset" Trigger="Al_LowFlow.Trigger" Active="Al_LowFlow.Active" />
+  <Alarm Name="Al_HighFlow" Type="ManualReset" Trigger="Al_HighFlow.Trigger" Active="Al_HighFlow.Active" />
+  <Alarm Name="Al_WarningPowerSave" Type="AutoReset" Trigger="Al_WarningPowerSave.Trigger" Active="Al_WarningPowerSave.Active" />
+</Alarms>
