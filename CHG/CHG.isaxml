@@ -295,6 +295,7 @@
     <DefineWord Name="DF_HC_ADJUST_MIN" Define="60" Comment="" Access="UserDefined" />
     <DefineWord Name="DF_3D_MIN" Define="9999999" Comment="" Access="ReadOnly" />
     <DefineWord Name="DF_3D_MAX" Define="9999999" Comment="" Access="ReadOnly" />
+    <DefineWord Name="DF_PT1000" Define="1" Comment="" Access="UserDefined" />
   </DefineWords>
   <DataTypes>
     <DataType Name="TZ_DATA_TZM" Comment="" Access="ReadOnly">

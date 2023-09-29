@@ -153,10 +153,14 @@
         <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="DummyService" Format="ib" Min="0" Max="1" />
         <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
         <Field Type="Text" Name="Text_2" Row="0" Column="0" Content=" P¸ºÅ¿¼ÃoÆaú¼¸     2/3" />
-        <Field Type="Text" Name="Text" Row="2" Column="0" Content="¨oÃÃ¸¾¶¼Ó U10:      " />
-        <Field Type="Text" Name="Text_3" Row="4" Column="0" Content="¨oÃÃ¸¾¶¼Ó U9 :      " />
-        <Field Type="Variable" Name="Variable" Row="2" Column="15" Content="UnivCh[8].Offset" Min="-5.0" Max="5.0" Class="CL_REAL_1" Format="io+1.1" />
-        <Field Type="Variable" Name="Variable_2" Row="4" Column="15" Content="UnivCh[9].Offset" Min="-5.0" Max="5.0" Class="CL_REAL_1" Format="io+1.1" />
+        <Field Type="Text" Name="Text" Row="3" Column="0" Content="¨oÃÃ¸¾¶¼Ó U10:      " />
+        <Field Type="Text" Name="Text_3" Row="2" Column="0" Content="¨oÃÃ¸¾¶¼Ó U9 :      " />
+        <Field Type="Variable" Name="Variable" Row="3" Column="15" Content="UnivCh[8].Offset" Min="-5.0" Max="5.0" Class="CL_REAL_1" Format="io+1.1" />
+        <Field Type="Variable" Name="Variable_2" Row="2" Column="15" Content="UnivCh[9].Offset" Min="-5.0" Max="5.0" Class="CL_REAL_1" Format="io+1.1" />
+        <Field Type="Text" Name="Text_4" Row="5" Column="6" Content="T¼Á U9 :" />
+        <Field Type="Text" Name="Text_5" Row="6" Column="6" Content="T¼Á U10:" />
+        <Field Type="Variable" Name="Variable_3" Row="6" Column="15" Content="U8PT1000" Min="0" Max="1" Class="Type" Format="iob" SimulationValue="0" />
+        <Field Type="Variable" Name="Variable_4" Row="5" Column="15" Content="U9PT1000" Min="0" Max="1" Class="Type" Format="iob" SimulationValue="1" />
       </Fields>
     </Mask>
     <Mask Name="Regulation_3" Type="Normal" X="2" Y="5">

@@ -7592,6 +7592,16 @@ msgid ""
 msgstr ""
 
 #: Classes.otsf
+msgctxt "[Class:Type][Resource:0]"
+msgid "NTC 10K"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Type][Resource:1]"
+msgid "PT1000"
+msgstr ""
+
+#: Classes.otsf
 msgctxt "[Class:U9Show][ClassText:Text]"
 msgid "T U9:    "
 msgstr ""
@@ -8519,6 +8529,16 @@ msgstr ""
 #: 03_Devices.otws
 msgctxt "[Mask:Regulation_2][Field:Text_3]"
 msgid "¨oÃÃ¸¾¶¼Ó U9:      "
+msgstr ""
+
+#: 03_Devices.otws
+msgctxt "[Mask:Regulation_2][Field:Text_4]"
+msgid "T¼Á U9"
+msgstr ""
+
+#: 03_Devices.otws
+msgctxt "[Mask:Regulation_2][Field:Text_5]"
+msgid "T¼Á U9:"
 msgstr ""
 
 #: 03_Devices.otws

@@ -15423,7 +15423,7 @@
       Acronym=""
       Min="0"
       Max="600"
-      InitialValue="30"
+      InitialValue="1"
       StringSize="0" />
     <Variable
       Name="DriveTyp"
@@ -16022,7 +16022,7 @@
       Acronym=""
       Min="2"
       Max="600"
-      InitialValue="10"
+      InitialValue="12"
       StringSize="0" />
     <Variable
       Name="RowDiscr"
@@ -16101,6 +16101,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[2]"
@@ -16138,6 +16139,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[4]"
@@ -16175,6 +16177,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[6]"
@@ -16212,6 +16215,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[8]"
@@ -16249,6 +16253,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[10]"
@@ -16267,6 +16272,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[11]"
@@ -16285,6 +16291,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[12]"
@@ -16303,6 +16310,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[13]"
@@ -16321,6 +16329,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[14]"
@@ -16339,6 +16348,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[15]"
@@ -16357,6 +16367,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[16]"
@@ -16375,6 +16386,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[17]"
@@ -16393,6 +16405,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[18]"
@@ -16411,6 +16424,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[19]"
@@ -16429,6 +16443,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[20]"
@@ -16447,6 +16462,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[21]"
@@ -16465,6 +16481,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[22]"
@@ -16483,6 +16500,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[23]"
@@ -16501,6 +16519,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[24]"
@@ -16519,6 +16538,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[25]"
@@ -16537,6 +16557,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[26]"
@@ -16555,6 +16576,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[27]"
@@ -16573,6 +16595,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[28]"
@@ -16591,6 +16614,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[29]"
@@ -16609,6 +16633,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[30]"
@@ -16627,6 +16652,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[31]"
@@ -16645,6 +16671,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[32]"
@@ -16663,6 +16690,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[33]"
@@ -16681,6 +16709,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[34]"
@@ -16699,6 +16728,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[35]"
@@ -16717,6 +16747,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[36]"
@@ -16735,6 +16766,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[37]"
@@ -16753,6 +16785,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[38]"
@@ -16771,6 +16804,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[39]"
@@ -16789,6 +16823,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[40]"
@@ -16807,6 +16842,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[41]"
@@ -16825,6 +16861,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[42]"
@@ -16843,6 +16880,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[43]"
@@ -16861,6 +16899,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[44]"
@@ -16879,6 +16918,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[45]"
@@ -16897,6 +16937,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[46]"
@@ -16915,6 +16956,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[47]"
@@ -16933,6 +16975,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[48]"
@@ -16951,6 +16994,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[49]"
@@ -16969,6 +17013,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[50]"
@@ -16987,6 +17032,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[51]"
@@ -17005,6 +17051,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[52]"
@@ -17023,6 +17070,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[53]"
@@ -17041,6 +17089,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[54]"
@@ -17059,6 +17108,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[55]"
@@ -17077,6 +17127,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[56]"
@@ -17095,6 +17146,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[57]"
@@ -17113,6 +17165,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[58]"
@@ -17131,6 +17184,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[59]"
@@ -17149,6 +17203,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[60]"
@@ -17167,6 +17222,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[61]"
@@ -17185,6 +17241,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[62]"
@@ -17203,6 +17260,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[63]"
@@ -17221,6 +17279,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[64]"
@@ -17239,6 +17298,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[65]"
@@ -17257,6 +17317,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[66]"
@@ -17275,6 +17336,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[67]"
@@ -17293,6 +17355,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[68]"
@@ -17311,6 +17374,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[69]"
@@ -17329,6 +17393,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[70]"
@@ -17347,6 +17412,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[71]"
@@ -17365,6 +17431,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[72]"
@@ -17383,6 +17450,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[73]"
@@ -17401,6 +17469,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[74]"
@@ -17419,6 +17488,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[75]"
@@ -17437,6 +17507,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[76]"
@@ -17455,6 +17526,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[77]"
@@ -17473,6 +17545,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[78]"
@@ -17491,6 +17564,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[79]"
@@ -17509,6 +17583,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[80]"
@@ -17527,6 +17602,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[81]"
@@ -17545,6 +17621,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[82]"
@@ -17563,6 +17640,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[83]"
@@ -17581,6 +17659,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[84]"
@@ -17599,6 +17678,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[85]"
@@ -17617,6 +17697,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[86]"
@@ -17635,6 +17716,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="SemiCriticalErrList_Enable[87]"
@@ -17653,6 +17735,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
     </Variable>
     <Variable
@@ -18002,7 +18085,7 @@
       Acronym=""
       Min="2"
       Max="6"
-      InitialValue="6"
+      InitialValue="2"
       StringSize="0" />
     <Variable
       Name="TotalKWt"
@@ -18040,7 +18123,7 @@
       Acronym=""
       Min="1"
       Max="TotalChill"
-      InitialValue="3"
+      InitialValue="2"
       StringSize="0" />
     <Variable
       Name="TotalPower"
@@ -18078,7 +18161,45 @@
       Acronym=""
       Min="100"
       Max="10000"
-      InitialValue="1000"
+      InitialValue="5000"
+      StringSize="0" />
+    <Variable
+      Name="U8PT1000"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var"
+      IO="false"
+      Protocol="false"
+      UI="true"
+      Default="true"
+      LogPV="false"
+      IsRetained="true"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      InitialValue="FALSE"
+      StringSize="0" />
+    <Variable
+      Name="U9PT1000"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var"
+      IO="false"
+      Protocol="false"
+      UI="true"
+      Default="true"
+      LogPV="false"
+      IsRetained="true"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      InitialValue="FALSE"
       StringSize="0" />
     <Variable
       Name="UnitOff"
@@ -19679,7 +19800,7 @@
       Acronym=""
       Min=""
       Max=""
-      InitialValue="FALSE"
+      InitialValue="TRUE"
       StringSize="0" />
     <Variable
       Name="UseLocalPump"
@@ -19698,7 +19819,7 @@
       Acronym=""
       Min=""
       Max=""
-      InitialValue="TRUE"
+      InitialValue="FALSE"
       StringSize="0" />
     <Variable
       Name="UseLP_Rotation"
@@ -19717,6 +19838,7 @@
       Acronym=""
       Min=""
       Max=""
+      InitialValue="TRUE"
       StringSize="0" />
     <Variable
       Name="UseTOut"
@@ -19735,7 +19857,7 @@
       Acronym=""
       Min=""
       Max=""
-      InitialValue="FALSE"
+      InitialValue="TRUE"
       StringSize="0" />
     <Variable
       Name="UseValves"
@@ -19754,7 +19876,7 @@
       Acronym=""
       Min=""
       Max=""
-      InitialValue="TRUE"
+      InitialValue="FALSE"
       StringSize="0" />
     <Variable
       Name="WarningKWt"
