@@ -284,7 +284,7 @@
     <DefineWord Name="ERR_NO_MEMORY" Define="-17" Comment="" Access="ReadOnly" />
     <DefineWord Name="DF_HC_THRSH" Define="0" Comment="Авария. 0 для отключения" Access="UserDefined" />
     <DefineWord Name="DF_HC_HOURS_NO" Define="3" Comment="Через сколько часов записывать в retain" Access="UserDefined" />
-    <DefineWord Name="DF_HC_ADJUST" Define="5" Comment="Кол-во секунд в часе. 0 для 3600. " Access="UserDefined" />
+    <DefineWord Name="DF_HC_ADJUST" Define="0" Comment="Кол-во секунд в часе. 0 для 3600. " Access="UserDefined" />
     <DefineWord Name="DF_MAX_UDINT" Define="4294967295" Comment="" Access="UserDefined" />
     <DefineWord Name="e_PID" Define="2.7182818284590452353602874713526624977572470936999595749" Comment="" Access="ReadOnly" />
     <DefineWord Name="DecayTimePID" Define="15" Comment="" Access="ReadOnly" />
@@ -581,7 +581,6 @@
   </Networks>
   <NetworkInstances>
     <NetworkInstance NetworkName="ISARSI" Name="USB1" />
-    <NetworkInstance NetworkName="ETCP" Name="ETCP1" />
   </NetworkInstances>
   <Targets>
     <Target Name="CAREL_PCO" />

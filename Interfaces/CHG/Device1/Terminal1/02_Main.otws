@@ -7,7 +7,7 @@
       <Field Type="Variable" Name="Variable_7" Row="6" Column="17" Content="IdxImgQM" Class="IdxImgQM" Format="o1" Min="0" Max="9" SimulationValue="1" />
       <Field Type="Image" Name="Image_4" Row="6" Column="20" Content="UpDown2.bmp" />
       <Field Type="Variable" Name="Variable_6" Row="6" Column="0" Content="UnitStatus" Class="UnitStatus" Format="o1" Min="0" Max="9" SimulationValue="6" />
-      <Field Type="Variable" Name="Variable" Row="0" Column="17" Content="TotalPower" Class="CL_REAL_0" Format="o+3.0" Min="-999.0" Max="999.0" />
+      <Field Type="Variable" Name="Variable" Row="0" Column="17" Content="ReqPower" Class="CL_REAL_0" Format="o+3.0" Min="-999.0" Max="999.0" />
       <Field Type="Text" Name="Text" Row="0" Column="0" Content="±aÁÃoc ÀoÈúocÄ¼ :    %" />
       <Field Type="Variable" Name="Variable_9" Row="3" Column="16" Content="TempIn" Class="CL_REAL_1" Format="o+2.1" Min="-99.9" Max="99.9" SimulationValue="0.0" />
       <Field Type="Variable" Name="Variable_10" Row="4" Column="16" Content="TempOut" Class="U9Show" Format="o+2.1" Min="-99.9" Max="99.9" SimulationValue="0.0" />

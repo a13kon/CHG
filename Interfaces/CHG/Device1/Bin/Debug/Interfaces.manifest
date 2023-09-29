@@ -19,7 +19,6 @@ PwdTypMenu=Int
 PwdIn=UInt
 PwdRes=Int
 AlrmLogDelete=Byte
-ClrAutoResCounters=Byte
 EnDDMMYY=Byte
 EnMMDDYY=Byte
 EnYYMMDD=Byte
