@@ -53,6 +53,41 @@ msgid "­Ëco¾¼É ÁoÄo¾ ½¼·¾ocÄ¼"
 msgstr "­Ëco¾¼É ÁoÄo¾ ½¼·¾ocÄ¼"
 
 #: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:6]"
+msgid "PWRsave ÁÃ¸·ÅÁÃ¸½·¸ú¼¸"
+msgstr "PWRsave ÁÃ¸·ÅÁÃ¸½·¸ú¼¸"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:7]"
+msgid "AÆaÃ¼Ó ÅcÄÃoÉcÄÆa 1"
+msgstr "AÆaÃ¼Ó ÅcÄÃoÉcÄÆa 1"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:8]"
+msgid "AÆaÃ¼Ó ÅcÄÃoÉcÄÆa 2"
+msgstr "AÆaÃ¼Ó ÅcÄÃoÉcÄÆa 2"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:9]"
+msgid "AÆaÃ¼Ó ÅcÄÃoÉcÄÆa 3"
+msgstr "AÆaÃ¼Ó ÅcÄÃoÉcÄÆa 3"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:10]"
+msgid "AÆaÃ¼Ó ÅcÄÃoÉcÄÆa 4"
+msgstr "AÆaÃ¼Ó ÅcÄÃoÉcÄÆa 4"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:11]"
+msgid "AÆaÃ¼Ó ÅcÄÃoÉcÄÆa 5"
+msgstr "AÆaÃ¼Ó ÅcÄÃoÉcÄÆa 5"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:12]"
+msgid "AÆaÃ¼Ó ÅcÄÃoÉcÄÆa 6"
+msgstr "AÆaÃ¼Ó ÅcÄÃoÉcÄÆa 6"
+
+#: Classes.otsf
 msgctxt "[Class:AlrmLogEvent][Resource:0]"
 msgid "Start"
 msgstr "A¾Ä¼Æa¶¼Ó"
@@ -91,6 +126,41 @@ msgstr "AL*05"
 msgctxt "[Class:AlrmNo][Resource:5]"
 msgid "AL*06"
 msgstr "AL*06"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:6]"
+msgid "AL*07"
+msgstr "AL*07"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:7]"
+msgid "AL*08"
+msgstr "AL*08"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:8]"
+msgid "AL*09"
+msgstr "AL*09"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:9]"
+msgid "AL*10"
+msgstr "AL*10"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:10]"
+msgid "AL*11"
+msgstr "AL*11"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:11]"
+msgid "AL*12"
+msgstr "AL*12"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:12]"
+msgid "AL*13"
+msgstr "AL*13"
 
 #: Classes.otsf
 #| msgctxt "[Class:Class_2][Resource:0]"

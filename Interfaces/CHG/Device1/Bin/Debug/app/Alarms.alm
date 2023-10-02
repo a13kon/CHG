@@ -7,4 +7,10 @@
   <Alarm Name="Al_LowFlow" Type="ManualReset" Trigger="Al_LowFlow.Trigger" Active="Al_LowFlow.Active" />
   <Alarm Name="Al_HighFlow" Type="ManualReset" Trigger="Al_HighFlow.Trigger" Active="Al_HighFlow.Active" />
   <Alarm Name="Al_WarningPowerSave" Type="AutoReset" Trigger="Al_WarningPowerSave.Trigger" Active="Al_WarningPowerSave.Active" />
+  <Alarm Name="AL_Chill_1" Type="AutoReset" Trigger="AL_Chill_1.Trigger" Active="AL_Chill_1.Active" />
+  <Alarm Name="AL_Chill_2" Type="AutoReset" Trigger="AL_Chill_2.Trigger" Active="AL_Chill_2.Active" />
+  <Alarm Name="AL_Chill_3" Type="AutoReset" Trigger="AL_Chill_3.Trigger" Active="AL_Chill_3.Active" />
+  <Alarm Name="AL_Chill_4" Type="AutoReset" Trigger="AL_Chill_4.Trigger" Active="AL_Chill_4.Active" />
+  <Alarm Name="AL_Chill_5" Type="AutoReset" Trigger="AL_Chill_5.Trigger" Active="AL_Chill_5.Active" />
+  <Alarm Name="AL_Chill_6" Type="AutoReset" Trigger="AL_Chill_6.Trigger" Active="AL_Chill_6.Active" />
 </Alarms>

@@ -20,6 +20,13 @@
       <Index Value="3" Content="AÆaÃ¼Ó ·aÄÂ¼¾a U9" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
       <Index Value="4" Content="H¼Ê¾¼É ÁoÄo¾ ½¼·¾ocÄ¼" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
       <Index Value="5" Content="­Ëco¾¼É ÁoÄo¾ ½¼·¾ocÄ¼" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="6" Content="PWRsave ÁÃ¸·ÅÁÃ¸½·¸ú¼¸" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="7" Content="AÆaÃ¼Ó ÅcÄÃoÉcÄÆa 1" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="8" Content="AÆaÃ¼Ó ÅcÄÃoÉcÄÆa 2" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="9" Content="AÆaÃ¼Ó ÅcÄÃoÉcÄÆa 3" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="10" Content="AÆaÃ¼Ó ÅcÄÃoÉcÄÆa 4" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="11" Content="AÆaÃ¼Ó ÅcÄÃoÉcÄÆa 5" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="12" Content="AÆaÃ¼Ó ÅcÄÃoÉcÄÆa 6" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
     </ResourceUsedOnInt>
   </FormatField>
   <FormatField Name="AlrmLogEvent" Format="o1">
@@ -38,6 +45,13 @@
       <Index Value="3" Content="AL*04" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
       <Index Value="4" Content="AL*05" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
       <Index Value="5" Content="AL*06" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="6" Content="AL*07" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="7" Content="AL*08" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="8" Content="AL*09" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="9" Content="AL*10" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="10" Content="AL*11" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="11" Content="AL*12" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="12" Content="AL*13" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_EAST" FontHeight="9" ProportionalCharWidth="true" />
     </ResourceUsedOnInt>
   </FormatField>
   <FormatField Name="Baudrate" Format="io+6">
