@@ -61,7 +61,7 @@
         <Field Type="Variable" Name="Variable_2" Row="5" Column="18" Content="PwdService" Class="PwdChgS" Format="io4z" Min="0" Max="9999" />
         <Field Type="Variable" Name="Variable_3" Row="6" Column="18" Content="RESERVED1" Class="PwdChgM" Format="io4z" Min="0" Max="9999" />
         <Field Type="Text" Name="Text_2" Row="4" Column="0" Content="ªo¿ÎÊoÆaÄ¸¿Î:" />
-        <Field Type="Text" Name="Text_3" Row="5" Column="0" Content="­¸ÃÆ¼c:" />
+        <Field Type="Text" Name="Text_3" Row="5" Column="0" Content="C¸ÃÆ¼c:" />
         <Field Type="Text" Name="Text_4" Row="6" Column="0" Content="ªÃo¼ÊÆo·¼Ä¸¿Î:" />
       </Fields>
       <KeyBindings>

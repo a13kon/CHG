@@ -4826,7 +4826,7 @@ msgstr "c.pCO mini"
 #: Classes.otsf
 msgctxt "[Class:Power][ClassText:Text]"
 msgid ""
-msgstr "ªoÄÃ¸µ¿¸ú¼¸:       kWt"
+msgstr "MoÈúocÄÎ ¾oÀÁÃ.    kWt"
 
 #: Classes.otsf
 msgctxt "[Class:ProtTyp_BMS][Resource:0]"
@@ -8411,7 +8411,7 @@ msgstr "ªo¿ÎÊoÆaÄ¸¿Î:"
 #: 04_Settings.otws
 msgctxt "[Mask:PwdChg][Field:Text_3]"
 msgid "ªo¿ÎÊoÆaÄ¸¿Î:"
-msgstr "­¸ÃÆ¼c:"
+msgstr "C¸ÃÆ¼c:"
 
 #: 04_Settings.otws
 msgctxt "[Mask:PwdChg][Field:Text_4]"

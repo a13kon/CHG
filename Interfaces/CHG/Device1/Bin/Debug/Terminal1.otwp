@@ -146,7 +146,7 @@
         <Field Type="Variable" Name="Variable_14" Row="4" Column="8" Content="CountLP" Class="CL_BYTE" Format="o1" Min="0" Max="9" />
         <Field Type="Variable" Name="Variable_2" Row="7" Column="2" Content="GeneralMng.PROJECT_RELEASE_1" Class="CL_STRING" Format="o1" Min="0" Max="9" SimulationValue="1.0.2" />
         <Field Type="Text" Name="Text_2" Row="7" Column="0" Content="42" />
-        <Field Type="Variable" Name="Variable_3" Row="1" Column="15" Content="TotalPower" Class="Power" Format="o+3.0" Min="-999.0" Max="999.0" SimulationValue="0.0" />
+        <Field Type="Variable" Name="Variable_3" Row="1" Column="15" Content="TotalKWt" Class="Power" Format="o+3.0" Min="-999.0" Max="999.0" SimulationValue="0.0" />
       </Fields>
       <KeyBindings>
         <KeyBinding Key="PRG" BindOn="GotoMainMenu" />
@@ -465,8 +465,8 @@
           <Field Type="Text" Name="Text_3" Row="0" Column="0" Content="92" />
           <Field Type="Variable" Name="Variable" Row="1" Column="18" Content="EnPowerSave" Min="0" Max="1" Class="YesNo" Format="iob" SimulationValue="1" />
           <Field Type="Text" Name="Text" Row="1" Column="0" Content="93" />
-          <Field Type="Variable" Name="Variable_2" Row="3" Column="13" Content="ShtDownKWt" Min="150.0" Max="350.0" Class="CL_REAL_1" Format="io+3.1" />
-          <Field Type="Variable" Name="Variable_3" Row="4" Column="13" Content="WarningKWt" Min="30.0" Max="100.0" Class="CL_REAL_1" Format="io+3.1" />
+          <Field Type="Variable" Name="Variable_2" Row="3" Column="13" Content="ShtDownKWt" Min="50.0" Max="350.0" Class="CL_REAL_1" Format="io+3.1" />
+          <Field Type="Variable" Name="Variable_3" Row="4" Column="13" Content="WarningKWt" Min="30.0" Max="ShtDownKWt" Class="CL_REAL_1" Format="io+3.1" />
           <Field Type="Variable" Name="Variable_4" Row="6" Column="2" Content="KpPS" Min="0.0" Max="999.0" Class="CL_REAL_1" Format="io+3.1" />
           <Field Type="Variable" Name="Variable_5" Row="7" Column="2" Content="TiPS" Min="0.0" Max="999.0" Class="CL_REAL_1" Format="io+3.1" />
           <Field Type="Text" Name="Text_4" Row="3" Column="0" Content="94" />

@@ -1687,7 +1687,7 @@
     <EnableOn>
       <Var Name="EnPowerSave" />
     </EnableOn>
-    <FieldText Column="0" Content="ªoÄÃ¸µ¿¸ú¼¸:       kWt" />
+    <FieldText Column="0" Content="MoÈúocÄÎ ¾oÀÁÃ.    kWt" />
   </FormatField>
   <FormatField Name="ProtTyp_BMS" Format="io3">
     <KeyBindings>
