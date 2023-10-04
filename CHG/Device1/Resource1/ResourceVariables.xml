@@ -15089,6 +15089,26 @@
       Max=""
       StringSize="0" />
     <Variable
+      Name="CutPowerVal"
+      Comment=""
+      DataType="REAL"
+      Kind="Var"
+      IO="true"
+      Protocol="false"
+      UI="true"
+      Default="true"
+      LogPV="false"
+      IsRetained="true"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Decimals="1"
+      Min="1.0"
+      Max="100.0"
+      InitialValue="15.0"
+      StringSize="0" />
+    <Variable
       Name="DOut"
       Comment="Digital ouput channel parameters"
       DataType="DOUT_CH_PARAMS,0-5"
@@ -18026,9 +18046,9 @@
       Access="ReadWrite"
       Acronym=""
       Decimals="1"
-      Min="50"
-      Max="350"
-      InitialValue="350.0"
+      Min="150"
+      Max="250"
+      InitialValue="250.0"
       StringSize="0" />
     <Variable
       Name="StartupJmp"
@@ -20146,9 +20166,9 @@
       Access="ReadWrite"
       Acronym=""
       Decimals="1"
-      Min="30.0"
+      Min="10"
       Max="ShtDownKWt"
-      InitialValue="50.0"
+      InitialValue="10.0"
       StringSize="0" />
     <Variable
       Name="WarningPowerSave"

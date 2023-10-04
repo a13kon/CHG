@@ -99,4 +99,7 @@
   <Variable>
     <FullName>CHG.Device1.Resource1.ShtDownKWt</FullName>
   </Variable>
+  <Variable>
+    <FullName>CHG.Device1.Resource1.WarningPowerSave</FullName>
+  </Variable>
 </SpyListVars_0>

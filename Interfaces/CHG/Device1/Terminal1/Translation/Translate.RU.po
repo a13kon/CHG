@@ -8436,7 +8436,7 @@ msgstr " ´¾oúoÀ¼Ó Ðú¸Ãº¼¼"
 #: 03_Devices.otws
 msgctxt "[Mask:PwrSave][Field:Text_4]"
 msgid "P¸ºÅ¿¼ÃoÆaú¼¸ Áoc¿¸:"
-msgstr "P¸ºÅ¿¼ÃoÆaú¼¸:"
+msgstr "OÄ¾¿ÌÂ¸ú¼¸ :"
 
 #: 03_Devices.otws
 msgctxt "[Mask:PwrSave][Field:Text_5]"
@@ -8451,17 +8451,17 @@ msgstr "kWt"
 #: 03_Devices.otws
 msgctxt "[Mask:PwrSave][Field:Text_7]"
 msgid "P¸ºÅ¿¼ÃoÆaú¼¸:"
-msgstr "ªÃ¸·ÅÁÃ-¸:"
+msgstr "ªÃ¸·ÅÁÃ-¸  :"
 
 #: 03_Devices.otws
-msgctxt "[Mask:PwrSave][Field:Text_8]"
-msgid "ª"
-msgstr "ª"
+msgctxt "[Mask:PwrSave][Field:Text_10]"
+msgid "ªÃ¸·ÅÁÃ-¸:"
+msgstr "OºÃaú¼Â¸ú¼¸:"
 
 #: 03_Devices.otws
-msgctxt "[Mask:PwrSave][Field:Text_9]"
-msgid "ª"
-msgstr "¦"
+msgctxt "[Mask:PwrSave][Field:Text_11]"
+msgid "kWt"
+msgstr "%"
 
 #: 04_Settings.otws
 msgctxt "[Mask:RebootingIPCfg][Field:Text]"

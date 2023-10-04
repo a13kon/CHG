@@ -117,16 +117,15 @@
         <Field Type="Text" Name="Text_3" Row="0" Column="0" Content=" ´¾oúoÀ¼Ó Ðú¸Ãº¼¼" />
         <Field Type="Variable" Name="Variable" Row="1" Column="18" Content="EnPowerSave" Min="0" Max="1" Class="YesNo" Format="iob" SimulationValue="1" />
         <Field Type="Text" Name="Text" Row="1" Column="0" Content="¨oúÄÃo¿Î ÁÃo¼ÊÆ.:" />
-        <Field Type="Variable" Name="Variable_2" Row="3" Column="13" Content="ShtDownKWt" Min="150.0" Max="350.0" Class="CL_REAL_1" Format="io+3.1" />
-        <Field Type="Variable" Name="Variable_3" Row="4" Column="13" Content="WarningKWt" Min="30.0" Max="100.0" Class="CL_REAL_1" Format="io+3.1" />
-        <Field Type="Variable" Name="Variable_4" Row="6" Column="2" Content="KpPS" Min="0.0" Max="999.0" Class="CL_REAL_1" Format="io+3.1" />
-        <Field Type="Variable" Name="Variable_5" Row="7" Column="2" Content="TiPS" Min="0.0" Max="999.0" Class="CL_REAL_1" Format="io+3.1" />
-        <Field Type="Text" Name="Text_4" Row="3" Column="0" Content="P¸ºÅ¿¼ÃoÆaú¼¸:" />
+        <Field Type="Variable" Name="Variable_2" Row="3" Column="13" Content="ShtDownKWt" Min="150.0" Max="250.0" Class="CL_REAL_1" Format="io+3.1" />
+        <Field Type="Variable" Name="Variable_3" Row="4" Column="13" Content="WarningKWt" Min="10.0" Max="ShtDownKWt" Class="CL_REAL_1" Format="io+3.1" />
+        <Field Type="Text" Name="Text_4" Row="3" Column="0" Content="OÄ¾¿ÌÂ¸ú¼¸ :" />
         <Field Type="Text" Name="Text_5" Row="3" Column="19" Content="kWt" />
         <Field Type="Text" Name="Text_6" Row="4" Column="19" Content="kWt" />
-        <Field Type="Text" Name="Text_7" Row="4" Column="0" Content="ªÃ¸·ÅÁÃ-¸:" />
-        <Field Type="Text" Name="Text_8" Row="6" Column="0" Content="ª" />
-        <Field Type="Text" Name="Text_9" Row="7" Column="0" Content="¦" />
+        <Field Type="Text" Name="Text_7" Row="4" Column="0" Content="ªÃ¸·ÅÁÃ-¸  :" />
+        <Field Type="Text" Name="Text_10" Row="6" Column="0" Content="OºÃaú¼Â¸ú¼¸:" />
+        <Field Type="Variable" Name="Variable_6" Row="6" Column="13" Content="CutPowerVal" Min="1.0" Max="100.0" Class="CL_REAL_1" Format="io+3.1" />
+        <Field Type="Text" Name="Text_11" Row="6" Column="19" Content="%" />
       </Fields>
     </Mask>
   </Loop>

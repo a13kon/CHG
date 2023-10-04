@@ -465,16 +465,15 @@
           <Field Type="Text" Name="Text_3" Row="0" Column="0" Content="92" />
           <Field Type="Variable" Name="Variable" Row="1" Column="18" Content="EnPowerSave" Min="0" Max="1" Class="YesNo" Format="iob" SimulationValue="1" />
           <Field Type="Text" Name="Text" Row="1" Column="0" Content="93" />
-          <Field Type="Variable" Name="Variable_2" Row="3" Column="13" Content="ShtDownKWt" Min="50.0" Max="350.0" Class="CL_REAL_1" Format="io+3.1" />
-          <Field Type="Variable" Name="Variable_3" Row="4" Column="13" Content="WarningKWt" Min="30.0" Max="ShtDownKWt" Class="CL_REAL_1" Format="io+3.1" />
-          <Field Type="Variable" Name="Variable_4" Row="6" Column="2" Content="KpPS" Min="0.0" Max="999.0" Class="CL_REAL_1" Format="io+3.1" />
-          <Field Type="Variable" Name="Variable_5" Row="7" Column="2" Content="TiPS" Min="0.0" Max="999.0" Class="CL_REAL_1" Format="io+3.1" />
+          <Field Type="Variable" Name="Variable_2" Row="3" Column="13" Content="ShtDownKWt" Min="150.0" Max="250.0" Class="CL_REAL_1" Format="io+3.1" />
+          <Field Type="Variable" Name="Variable_3" Row="4" Column="13" Content="WarningKWt" Min="10.0" Max="ShtDownKWt" Class="CL_REAL_1" Format="io+3.1" />
           <Field Type="Text" Name="Text_4" Row="3" Column="0" Content="94" />
           <Field Type="Text" Name="Text_5" Row="3" Column="19" Content="95" />
           <Field Type="Text" Name="Text_6" Row="4" Column="19" Content="96" />
           <Field Type="Text" Name="Text_7" Row="4" Column="0" Content="97" />
-          <Field Type="Text" Name="Text_8" Row="6" Column="0" Content="98" />
-          <Field Type="Text" Name="Text_9" Row="7" Column="0" Content="99" />
+          <Field Type="Text" Name="Text_10" Row="6" Column="0" Content="98" />
+          <Field Type="Variable" Name="Variable_6" Row="6" Column="13" Content="CutPowerVal" Min="1.0" Max="100.0" Class="CL_REAL_1" Format="io+3.1" />
+          <Field Type="Text" Name="Text_11" Row="6" Column="19" Content="99" />
         </Fields>
       </Mask>
     </Loop>
