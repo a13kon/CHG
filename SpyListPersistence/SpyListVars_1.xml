@@ -6,4 +6,7 @@
     <ToolWindowPaneIndex>1</ToolWindowPaneIndex>
     <DefaultRefreshRateMonitoring>500</DefaultRefreshRateMonitoring>
   </ConfigurationInfo>
+  <Variable>
+    <FullName>CHG.Device1.Resource1.GeneralMng.PROJECT_RELEASE_1</FullName>
+  </Variable>
 </SpyListVars_1>

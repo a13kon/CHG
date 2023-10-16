@@ -126,6 +126,9 @@
         <Field Type="Text" Name="Text_10" Row="6" Column="0" Content="OºÃaú¼Â¸ú¼¸:" />
         <Field Type="Variable" Name="Variable_6" Row="6" Column="13" Content="CutPowerVal" Min="1.0" Max="100.0" Class="CL_REAL_1" Format="io+3.1" />
         <Field Type="Text" Name="Text_11" Row="6" Column="19" Content="%" />
+        <Field Type="Text" Name="Text_8" Row="5" Column="0" Content="¥¼cÄ¸Ã¸Ê¼c :" />
+        <Field Type="Text" Name="Text_9" Row="5" Column="19" Content="kWt" />
+        <Field Type="Variable" Name="Variable_4" Row="5" Column="14" Content="HysterKwt" Min="15.0" Max="70.0" Class="CL_REAL_1" Format="io+2.1" />
       </Fields>
     </Mask>
   </Loop>

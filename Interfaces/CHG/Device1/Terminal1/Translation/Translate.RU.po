@@ -8454,6 +8454,16 @@ msgid "P¸ºÅ¿¼ÃoÆaú¼¸:"
 msgstr "ªÃ¸·ÅÁÃ-¸  :"
 
 #: 03_Devices.otws
+msgctxt "[Mask:PwrSave][Field:Text_8]"
+msgid "ªÃ¸·ÅÁÃ-¸  :"
+msgstr "¥¼cÄ¸Ã¸Ê¼c :"
+
+#: 03_Devices.otws
+msgctxt "[Mask:PwrSave][Field:Text_9]"
+msgid "kWt"
+msgstr "kWt"
+
+#: 03_Devices.otws
 msgctxt "[Mask:PwrSave][Field:Text_10]"
 msgid "ªÃ¸·ÅÁÃ-¸:"
 msgstr "OºÃaú¼Â¸ú¼¸:"
