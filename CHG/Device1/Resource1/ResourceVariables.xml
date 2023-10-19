@@ -16038,7 +16038,7 @@
       Decimals="1"
       Min="0"
       Max="999"
-      InitialValue="20.0"
+      InitialValue="15.0"
       StringSize="0" />
     <Variable
       Name="language"
@@ -18204,7 +18204,7 @@
       Decimals="1"
       Min="0"
       Max="999"
-      InitialValue="5.0"
+      InitialValue="10.0"
       StringSize="0" />
     <Variable
       Name="TempIn"
@@ -18299,7 +18299,7 @@
       Acronym=""
       Min="0"
       Max="120"
-      InitialValue="0"
+      InitialValue="3"
       StringSize="0" />
     <Variable
       Name="TiPS"
@@ -18359,7 +18359,7 @@
       Decimals="1"
       Min="0"
       Max="999"
-      InitialValue="50.0"
+      InitialValue="130.0"
       StringSize="0" />
     <Variable
       Name="TotalChill"
@@ -20093,7 +20093,7 @@
       Acronym=""
       Min=""
       Max=""
-      InitialValue="TRUE"
+      InitialValue="FALSE"
       StringSize="0" />
     <Variable
       Name="UseLocalPump"
