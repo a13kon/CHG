@@ -2,15 +2,15 @@
 00000000 :  53 49 4D 55 4C 41 54 4F  -  52 00 00 00 00 00 00 00   * Target Name : SIMULATOR
 00000010 :  0C 00 00 00   * RDCC format version number
 00000014 :  C5 EB 59 D4   * Resource check sum
-00000018 :  F6 45 27 95   * Module check sum
+00000018 :  86 D6 34 AB   * Module check sum
 0000001C :  04 00 00 00   * Module ID parameter
 00000020 :  30 88 00 00   * Total size
 00000024 :  A8 87 00 00   * Size without __RDCC_MODULE_ID
 00000028 :  44 00 00 00   * Offset -> resource name
 0000002C :  5A 00 00 00   * Offset -> module name
 00000030 :  88 00 00 00   * Offset -> beginning of the data block
-00000034 :  A6 16 31 65   * Compilation generation date
-00000038 :  09 01 00 00   * Compilation version number
+00000034 :  50 CA 4D 65   * Compilation generation date
+00000038 :  0B 01 00 00   * Compilation version number
 0000003C :  00 00 00 00   * User module version number
 00000040 :  69 00 00 00   * Offset -> target auto-validation data
 00000044 :  43 48 47 5C 44 45 56 49  -  43 45 31 5C 52 45 53 4F 
@@ -2807,7 +2807,7 @@
 00002A70 :  84 38 01 00   * __CTIME00001388
 00002A74 :  88 13 00 00   * 5000
 00002A78 :  C0 05 00 00   * SETP
-00002A7C :  00 00 70 41   * 15.0
+00002A7C :  00 00 88 41   * 17.0
 00002A80 :  C4 05 00 00   * KPSTART
 00002A84 :  00 00 20 41   * 10.0
 00002A88 :  C8 05 00 00   * KPMAIN

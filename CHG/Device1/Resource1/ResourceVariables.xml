@@ -18049,7 +18049,7 @@
       Decimals="1"
       Min="-10.0"
       Max="50.0"
-      InitialValue="15.0"
+      InitialValue="17.0"
       StringSize="0" />
     <Variable
       Name="ShtDownKWt"
