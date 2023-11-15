@@ -1,33 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SpyListVars_0>
   <ConfigurationInfo>
-    <SpyListName>Spy List Name[1]</SpyListName>
+    <SpyListName>Spy List Name[3]</SpyListName>
     <ConfigFileVersion>3</ConfigFileVersion>
     <ToolWindowPaneIndex>0</ToolWindowPaneIndex>
     <DefaultRefreshRateMonitoring>500</DefaultRefreshRateMonitoring>
   </ConfigurationInfo>
-  <Variable>
-    <FullName>CHG.Device1.Resource1.TotalChill</FullName>
-  </Variable>
-  <Variable>
-    <FullName>CHG.Device1.Resource1.TotalMainChill</FullName>
-  </Variable>
-  <Variable>
-    <FullName>CHG.Device1.Resource1.UseLocalPump</FullName>
-  </Variable>
-  <Variable>
-    <FullName>CHG.Device1.Resource1.UseValves</FullName>
-  </Variable>
-  <Variable>
-    <FullName>CHG.Device1.Resource1.UnitOn</FullName>
-  </Variable>
-  <Variable>
-    <FullName>CHG.Device1.Resource1.CountValve</FullName>
-  </Variable>
-  <Variable>
-    <FullName>CHG.Device1.Resource1.DOut</FullName>
-  </Variable>
-  <Variable>
-    <FullName>CHG.Device1.Resource1.Chill</FullName>
-  </Variable>
 </SpyListVars_0>

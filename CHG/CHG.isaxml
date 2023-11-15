@@ -502,6 +502,8 @@
         <Variable Name="NotCritErrList2" DataType="UDINT" Comment="" StringSize="0" Order="39" />
         <Variable Name="TotalKWt" DataType="REAL" Comment="" StringSize="0" Order="40" />
         <Variable Name="NumComps" DataType="INT" Comment="" StringSize="0" Order="41" />
+        <Variable Name="ValveCondFromChill" DataType="CompsOrFans" Comment="" StringSize="0" Order="42" />
+        <Variable Name="ValveCond" DataType="BOOL" Comment="" StringSize="0" Order="43" />
       </Struct>
     </DataType>
     <DataType Name="ARR_SEMI_CRIT_ERR" Comment="" Access="UserDefined">
@@ -546,6 +548,11 @@
         <Variable Name="Trigger" DataType="BOOL" Comment="Alarm status Trigger" StringSize="0" Order="1" />
         <Variable Name="Active" DataType="BOOL" Comment="Alarm status" StringSize="0" Order="2" />
       </Struct>
+    </DataType>
+    <DataType Name="CompsOrFans" Comment="" Access="UserDefined">
+      <Array Order="1" DataType="BOOL" StringSize="0">
+        <Dimension Lower="0" Upper="19" />
+      </Array>
     </DataType>
   </DataTypes>
   <Networks>

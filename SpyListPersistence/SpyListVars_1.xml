@@ -9,4 +9,10 @@
   <Variable>
     <FullName>CHG.Device1.Resource1.GeneralMng.PROJECT_RELEASE_1</FullName>
   </Variable>
+  <Variable>
+    <FullName>CHG.Device1.Resource1.Chill</FullName>
+  </Variable>
+  <Variable>
+    <FullName>CHG.Device1.Resource1.DOut</FullName>
+  </Variable>
 </SpyListVars_1>

@@ -21,5 +21,23 @@
       Min=""
       Max=""
       StringSize="0" />
+    <Variable
+      Name="j"
+      Comment=""
+      DataType="DINT"
+      Kind="Var"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
   </Variables>
 </Manifest>
