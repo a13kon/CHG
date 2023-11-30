@@ -2593,6 +2593,24 @@
       </Variable>
     </Variable>
     <Variable
+      Name="counter"
+      Comment=""
+      DataType="BYTE"
+      Kind="Var"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
+    <Variable
       Name="HoursCounter_PID_Swap"
       Comment="Counts working hours of a generic device."
       DataType="HoursCounter"

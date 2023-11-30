@@ -504,6 +504,7 @@
         <Variable Name="NumComps" DataType="INT" Comment="" StringSize="0" Order="41" />
         <Variable Name="ValveCondFromChill" DataType="CompsOrFans" Comment="" StringSize="0" Order="42" />
         <Variable Name="ValveCond" DataType="BOOL" Comment="" StringSize="0" Order="43" />
+        <Variable Name="FC_On" DataType="BOOL" Comment="" StringSize="0" Order="44" />
       </Struct>
     </DataType>
     <DataType Name="ARR_SEMI_CRIT_ERR" Comment="" Access="UserDefined">
@@ -519,6 +520,11 @@
     <DataType Name="Nums_Arr" Comment="" Access="ReadOnly">
       <Array Order="1" DataType="YDot_Arr" StringSize="0">
         <Dimension Lower="0" Upper="15" />
+      </Array>
+    </DataType>
+    <DataType Name="CompsOrFans" Comment="" Access="UserDefined">
+      <Array Order="1" DataType="BOOL" StringSize="0">
+        <Dimension Lower="0" Upper="19" />
       </Array>
     </DataType>
     <DataType Name="TEEV" Comment="" Access="ReadOnly">
@@ -548,11 +554,6 @@
         <Variable Name="Trigger" DataType="BOOL" Comment="Alarm status Trigger" StringSize="0" Order="1" />
         <Variable Name="Active" DataType="BOOL" Comment="Alarm status" StringSize="0" Order="2" />
       </Struct>
-    </DataType>
-    <DataType Name="CompsOrFans" Comment="" Access="UserDefined">
-      <Array Order="1" DataType="BOOL" StringSize="0">
-        <Dimension Lower="0" Upper="19" />
-      </Array>
     </DataType>
   </DataTypes>
   <Networks>

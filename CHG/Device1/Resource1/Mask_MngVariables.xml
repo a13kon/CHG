@@ -2878,6 +2878,24 @@
         Min=""
         Max=""
         StringSize="0" />
+      <Variable
+        Name="FC_On"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="false"
+        UoM="NoUnits"
+        Comment=""
+        Kind="Var"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
     </Variable>
     <Variable
       Name="Info_Page"
@@ -5582,6 +5600,24 @@
       </Variable>
       <Variable
         Name="ValveCond"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="false"
+        UoM="NoUnits"
+        Comment=""
+        Kind="Var"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
+      <Variable
+        Name="FC_On"
         DataType="BOOL"
         IO="false"
         Protocol="false"
