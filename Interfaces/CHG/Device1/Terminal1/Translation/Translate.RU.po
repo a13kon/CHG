@@ -8514,6 +8514,16 @@ msgid "ª¦£-Ã¸ºÅ¿ÓÄoÃa:"
 msgstr "ª¦£-Ã¸ºÅ¿ÓÄoÃa:     À"
 
 #: 03_Devices.otws
+msgctxt "[Mask:Regulation_1][Field:Text_6]"
+msgid "­Ã¸ÀÓ Á¸Ã¸¾¿ÌÂ¸ú¼Ó"
+msgstr "ªaÃa¿¿¸¿ÎúËÉ Ã¸½¼À"
+
+#: 03_Devices.otws
+msgctxt "[Mask:Regulation_1][Field:Text_7]"
+msgid "ªaÃa¿¿¸¿ÎúËÉ Ã¸½¼À"
+msgstr "·¿Ó FC:"
+
+#: 03_Devices.otws
 msgctxt "[Mask:Regulation_2][Field:Text]"
 msgid "¨oÃÃ¸¾¶¼Ó U8"
 msgstr "¨oÃÃ¸¾¶¼Ó U10:      "

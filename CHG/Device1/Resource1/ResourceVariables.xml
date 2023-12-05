@@ -22552,6 +22552,25 @@
       InitialValue="TRUE"
       StringSize="0" />
     <Variable
+      Name="UseParallelFc"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var"
+      IO="false"
+      Protocol="false"
+      UI="true"
+      Default="true"
+      LogPV="false"
+      IsRetained="true"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      InitialValue="TRUE"
+      StringSize="0" />
+    <Variable
       Name="UseTOut"
       Comment="Использовать датчик выходной темп"
       DataType="BOOL"

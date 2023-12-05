@@ -138,13 +138,16 @@
         <Field Type="Image" Name="Image_1" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
         <Field Name="Variable_6" Type="Variable" Content="dummy" Column="0" Row="0" Class="DummyService" Format="ib" Min="0" Max="1" />
         <Field Type="Text" Name="Text_2" Row="0" Column="0" Content=" P¸ºÅ¿¼ÃoÆaú¼¸     1/3" />
-        <Field Type="Variable" Name="Variable" Row="2" Column="17" Content="UseCascade" Min="0" Max="1" Class="YesNo" Format="iob" SimulationValue="0" />
-        <Field Type="Variable" Name="Variable_2" Row="3" Column="17" Content="UseTOut" Min="0" Max="1" Class="YesNo" Format="iob" SimulationValue="1" />
-        <Field Type="Variable" Name="Variable_3" Row="6" Column="17" Content="TimeToSwapPID" Min="0" Max="120" Class="CL_UDINT" Format="io3" />
-        <Field Type="Text" Name="Text" Row="2" Column="0" Content="¨ac¾a·úo¸ ÅÁÃ-¸:" />
-        <Field Type="Text" Name="Text_3" Row="3" Column="0" Content="­ÄoÃoÉ ·aÄÂ¼¾ T:" />
-        <Field Type="Text" Name="Text_4" Row="5" Column="0" Content="­Ã¸ÀÓ Á¸Ã¸¾¿ÌÂ¸ú¼Ó" />
-        <Field Type="Text" Name="Text_5" Row="6" Column="0" Content="ª¦£-Ã¸ºÅ¿ÓÄoÃa:     À" />
+        <Field Type="Variable" Name="Variable" Row="1" Column="17" Content="UseCascade" Min="0" Max="1" Class="YesNo" Format="iob" SimulationValue="0" />
+        <Field Type="Variable" Name="Variable_2" Row="2" Column="17" Content="UseTOut" Min="0" Max="1" Class="YesNo" Format="iob" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_3" Row="4" Column="17" Content="TimeToSwapPID" Min="0" Max="120" Class="CL_UDINT" Format="io3" />
+        <Field Type="Text" Name="Text" Row="1" Column="0" Content="¨ac¾a·úo¸ ÅÁÃ-¸:" />
+        <Field Type="Text" Name="Text_3" Row="2" Column="0" Content="­ÄoÃoÉ ·aÄÂ¼¾ T:" />
+        <Field Type="Text" Name="Text_4" Row="3" Column="0" Content="­Ã¸ÀÓ Á¸Ã¸¾¿ÌÂ¸ú¼Ó" />
+        <Field Type="Text" Name="Text_5" Row="4" Column="0" Content="ª¦£-Ã¸ºÅ¿ÓÄoÃa:     À" />
+        <Field Type="Variable" Name="Variable_4" Row="6" Column="18" Content="UseParallelFc" Min="0" Max="1" Class="YesNo" Format="iob" SimulationValue="0" />
+        <Field Type="Text" Name="Text_6" Row="5" Column="0" Content="ªaÃa¿¿¸¿ÎúËÉ Ã¸½¼À" />
+        <Field Type="Text" Name="Text_7" Row="6" Column="0" Content="·¿Ó FC:" />
       </Fields>
       <KeyBindings>
         <KeyBinding Key="PRG" BindOn="GotoMainMenu" />
