@@ -3229,6 +3229,25 @@
       Max=""
       StringSize="0" />
     <Variable
+      Name="MaxPIDGain"
+      Comment=""
+      DataType="REAL"
+      Kind="Var"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Decimals="1"
+      Min=""
+      Max=""
+      StringSize="0" />
+    <Variable
       Name="PID_Adv_2_Cascade"
       Comment=""
       DataType="PID_Adv_2"
