@@ -2,15 +2,15 @@
 00000000 :  43 41 52 45 4C 5F 50 43  -  4F 00 00 00 00 00 00 00   * Target Name : CAREL_PCO
 00000010 :  00 00 00 0C   * RDCC format version number
 00000014 :  E0 16 38 52   * Resource check sum
-00000018 :  2B C0 B4 ED   * Module check sum
+00000018 :  42 6E A8 FF   * Module check sum
 0000001C :  00 00 00 04   * Module ID parameter
 00000020 :  00 00 87 C4   * Total size
 00000024 :  00 00 87 40   * Size without __RDCC_MODULE_ID
 00000028 :  00 00 00 44   * Offset -> resource name
 0000002C :  00 00 00 5A   * Offset -> module name
 00000030 :  00 00 00 84   * Offset -> beginning of the data block
-00000034 :  65 70 39 A3   * Compilation generation date
-00000038 :  00 00 01 1C   * Compilation version number
+00000034 :  65 70 72 27   * Compilation generation date
+00000038 :  00 00 01 1D   * Compilation version number
 0000003C :  00 00 00 00   * User module version number
 00000040 :  00 00 00 69   * Offset -> target auto-validation data
 00000044 :  43 48 47 5C 44 45 56 49  -  43 45 31 5C 52 45 53 4F 
@@ -86,7 +86,7 @@
 00000108 :  00 00 14 40   * size of VALVEPUMP
 0000010C :  00 00 03 B0   * size of POWERCTRL
 00000110 :  00 00 0F F8   * size of ALARM_MNG
-00000114 :  00 00 19 D4   * size of MASK_MNG
+00000114 :  00 00 1A 3C   * size of MASK_MNG
 00000118 :  00 00 02 7C   * size of ABSHUMIDITY_INT
 0000011C :  00 00 02 70   * size of ABSHUMIDITY_REAL
 00000120 :  00 00 01 78   * size of BARTOPSI_INT
