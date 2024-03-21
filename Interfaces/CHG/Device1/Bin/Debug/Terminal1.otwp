@@ -11,6 +11,7 @@
   <KeyBindings>
     <KeyBinding Key="ESC" BindOn="GlobalEsc" />
     <KeyBinding Key="PRG" BindOn="GotoMainMenu" />
+    <KeyBinding Key="ALARM" BindOn="CheckActiveAlarm" />
   </KeyBindings>
   <Worksheet Name="01_Alrms" Version="1.0.0">
     <Loop Name="ACTIVEALARMS" Type="Normal" X="0" Y="2">

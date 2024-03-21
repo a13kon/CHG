@@ -11,5 +11,6 @@
   <KeyBindings>
     <KeyBinding Key="ESC" BindOn="GlobalEsc" />
     <KeyBinding Key="PRG" BindOn="GotoMainMenu" />
+    <KeyBinding Key="ALARM" BindOn="CheckActiveAlarm" />
   </KeyBindings>
 </Terminal>
