@@ -9,7 +9,6 @@
     <ShortCut Name="ESC" Code="0" />
   </ShortCuts>
   <KeyBindings>
-    <KeyBinding Key="ALARM" BindOn="CheckActiveAlarm" />
     <KeyBinding Key="ESC" BindOn="GlobalEsc" />
     <KeyBinding Key="PRG" BindOn="GotoMainMenu" />
   </KeyBindings>

@@ -8524,6 +8524,11 @@ msgid "ªaÃa¿¿¸¿ÎúËÉ Ã¸½¼À"
 msgstr "·¿Ó FC:"
 
 #: 03_Devices.otws
+msgctxt "[Mask:Regulation_1][Field:Text_8]"
+msgid "·¿Ó FC:"
+msgstr "P¸½¼À ÁÃoÆ¸Ã¾¼:"
+
+#: 03_Devices.otws
 msgctxt "[Mask:Regulation_2][Field:Text]"
 msgid "¨oÃÃ¸¾¶¼Ó U8"
 msgstr "¨oÃÃ¸¾¶¼Ó U10:      "

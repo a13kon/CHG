@@ -364,6 +364,24 @@
         StringSize="0" />
     </Variable>
     <Variable
+      Name="HC_Time"
+      Comment=""
+      DataType="UINT"
+      Kind="Var"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
+    <Variable
       Name="HoursCounter_Chill_0_DownT"
       Comment=""
       DataType="HoursCounter"
@@ -10108,5 +10126,23 @@
         Max=""
         StringSize="0" />
     </Variable>
+    <Variable
+      Name="TestMode"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var"
+      IO="false"
+      Protocol="false"
+      UI="true"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Acronym=""
+      Min=""
+      Max=""
+      StringSize="0" />
   </Variables>
 </Manifest>
