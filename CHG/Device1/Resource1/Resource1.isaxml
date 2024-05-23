@@ -134,6 +134,7 @@
     <Program Name="PowerCtrl" ElementGuid="b2b5f0bb-e110-4e1c-b193-f1aaf1c067da" Language="ST" CustomFbd="0" Is1499="false" />
     <Program Name="Alarm_Mng" ElementGuid="1d51cd6f-8bcc-48af-b0f8-070e6dedd1d6" Language="ST" CustomFbd="0" Is1499="false" />
     <Program Name="Mask_Mng" ElementGuid="d2200886-b549-44e1-bd53-c5209c9ea761" Language="ST" CustomFbd="0" Is1499="false" />
+    <Program Name="Protocol" ElementGuid="0eed842b-f6e9-45f1-80e1-dfb9cef98613" Language="ST" CustomFbd="0" Is1499="false" />
   </Pous>
   <NetworkParameterValues>
     <NetworkParameterValue NetworkName="HSD" Name="ValidityTime" Value="0" />
@@ -255,6 +256,7 @@
     <Variable Name="HysterKwt" DataType="REAL" InitialValue="30.0" Comment="" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
     <Variable Name="FC_Active" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
     <Variable Name="UseParallelFc" DataType="BOOL" InitialValue="TRUE" Comment="" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="RTU" DataType="ARR_CHILL_RTU" InitialValue="" Comment="Массивы для передачи по RTU" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
   </GlobalVars>
   <Devices />
   <ExportedGroups />

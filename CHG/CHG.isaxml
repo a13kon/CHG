@@ -555,6 +555,57 @@
         <Variable Name="Active" DataType="BOOL" Comment="Alarm status" StringSize="0" Order="2" />
       </Struct>
     </DataType>
+    <DataType Name="ARR_COIL" Comment="" Access="UserDefined">
+      <Array Order="1" DataType="BOOL" StringSize="0">
+        <Dimension Lower="0" Upper="126" />
+      </Array>
+    </DataType>
+    <DataType Name="ARR_DISCRET" Comment="" Access="UserDefined">
+      <Array Order="1" DataType="BOOL" StringSize="0">
+        <Dimension Lower="0" Upper="351" />
+      </Array>
+    </DataType>
+    <DataType Name="ARR_HOLDING" Comment="" Access="UserDefined">
+      <Array Order="1" DataType="INT" StringSize="0">
+        <Dimension Lower="0" Upper="182" />
+      </Array>
+    </DataType>
+    <DataType Name="ARR_INPUT" Comment="" Access="UserDefined">
+      <Array Order="1" DataType="INT" StringSize="0">
+        <Dimension Lower="0" Upper="83" />
+      </Array>
+    </DataType>
+    <DataType Name="ARR_HOLDING_2" Comment="" Access="UserDefined">
+      <Array Order="1" DataType="DINT" StringSize="0">
+        <Dimension Lower="200" Upper="224" />
+      </Array>
+    </DataType>
+    <DataType Name="ARR_INPUT_2" Comment="" Access="UserDefined">
+      <Array Order="1" DataType="DINT" StringSize="0">
+        <Dimension Lower="100" Upper="148" />
+      </Array>
+    </DataType>
+    <DataType Name="ARR_HOLDING_3" Comment="" Access="UserDefined">
+      <Array Order="1" DataType="INT" StringSize="0">
+        <Dimension Lower="248" Upper="262" />
+      </Array>
+    </DataType>
+    <DataType Name="STCT_CHILL_RTU" Comment="" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Coils" DataType="ARR_COIL" Comment="" StringSize="0" Order="1" />
+        <Variable Name="Discrete" DataType="ARR_DISCRET" Comment="" StringSize="0" Order="2" />
+        <Variable Name="Holding_1" DataType="ARR_HOLDING" Comment="" StringSize="0" Order="3" />
+        <Variable Name="Holding_2" DataType="ARR_HOLDING_2" Comment="" StringSize="0" Order="4" />
+        <Variable Name="Holding_3" DataType="ARR_HOLDING_3" Comment="" StringSize="0" Order="5" />
+        <Variable Name="Input_1" DataType="ARR_INPUT" Comment="" StringSize="0" Order="6" />
+        <Variable Name="Input_2" DataType="ARR_INPUT_2" Comment="" StringSize="0" Order="7" />
+      </Struct>
+    </DataType>
+    <DataType Name="ARR_CHILL_RTU" Comment="" Access="UserDefined">
+      <Array Order="1" DataType="STCT_CHILL_RTU" StringSize="0">
+        <Dimension Lower="0" Upper="5" />
+      </Array>
+    </DataType>
   </DataTypes>
   <Networks>
     <Network Name="HSD" SingleTextLine="" LocalNet="true" DistributedNet="false" Comment="" UsedForBinding="true" BindingService="false" AllowWorkbenchCommunications="true">

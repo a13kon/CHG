@@ -36,6 +36,9 @@
   <AcfElementGuid Guid="0c7a549e-7718-4910-b788-e5fcece106c2">
     <File>Blackout_3.AcfMlge</File>
   </AcfElementGuid>
+  <AcfElementGuid Guid="0eed842b-f6e9-45f1-80e1-dfb9cef98613">
+    <File>Protocol.AcfMlge</File>
+  </AcfElementGuid>
   <AcfElementGuid Guid="0f5d2d71-e56d-4bb6-8dfe-c1ca7c0a71b2">
     <File>Grad_INT.AcfMlge</File>
   </AcfElementGuid>
