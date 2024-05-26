@@ -39,6 +39,7 @@
       Acronym=""
       Min=""
       Max=""
+      InitialValue="19200"
       StringSize="0" />
     <Variable
       Name="BMS_CaseBaudrate"
@@ -114,6 +115,7 @@
       Acronym=""
       Min=""
       Max=""
+      InitialValue="19200"
       StringSize="0" />
     <Variable
       Name="FBus_CaseBaudrate"
