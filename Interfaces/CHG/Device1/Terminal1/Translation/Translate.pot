@@ -7892,38 +7892,13 @@ msgid " £A"
 msgstr ""
 
 #: 04_Settings.otws
-msgctxt "[Mask:AlrmInit][Field:Text]"
-msgid "A·Ã¸c Æ c¸Ä¼:"
-msgstr ""
-
-#: 04_Settings.otws
 msgctxt "[Mask:AlrmInit][Field:Text_1]"
 msgid "Delete alarm logs?"
 msgstr ""
 
 #: 04_Settings.otws
-msgctxt "[Mask:AlrmInit][Field:Text_2]"
-msgid "Baudrate: 19200"
-msgstr ""
-
-#: 04_Settings.otws
 msgctxt "[Mask:AlrmInit][Field:Text_3]"
 msgid "Initialization"
-msgstr ""
-
-#: 04_Settings.otws
-msgctxt "[Mask:AlrmInit][Field:Text_4]"
-msgid "Baudrate:      19200"
-msgstr ""
-
-#: 04_Settings.otws
-msgctxt "[Mask:AlrmInit][Field:Text_5]"
-msgid "Stop bit:          1"
-msgstr ""
-
-#: 04_Settings.otws
-msgctxt "[Mask:AlrmInit][Field:Text_6]"
-msgid " "
 msgstr ""
 
 #: 01_Alrms.otws
@@ -8025,6 +8000,36 @@ msgstr ""
 #| msgctxt "[Mask:Alrms_DataLogger][Field:to_DATA_LOGGER_2]"
 msgctxt "[Mask:Alrms_Res][Field:to_DATA_LOGGER_2]"
 msgid "to DATA LOGGER"
+msgstr ""
+
+#: 03_Devices.otws
+msgctxt "[Mask:BMS_Settings][Field:Text]"
+msgid "A·Ã¸c:"
+msgstr ""
+
+#: 03_Devices.otws
+msgctxt "[Mask:BMS_Settings][Field:Text_2]"
+msgid "¬cÄaúoÆ¾a"
+msgstr ""
+
+#: 03_Devices.otws
+msgctxt "[Mask:BMS_Settings][Field:Text_3]"
+msgid "1/3"
+msgstr ""
+
+#: 03_Devices.otws
+msgctxt "[Mask:BMS_Settings][Field:Text_4]"
+msgid "C¾oÃocÄÎ:"
+msgstr ""
+
+#: 03_Devices.otws
+msgctxt "[Mask:BMS_Settings][Field:Text_5]"
+msgid "CÄoÁ-µ¼Ä:"
+msgstr ""
+
+#: 03_Devices.otws
+msgctxt "[Mask:BMS_Settings][Field:Text_6]"
+msgid "«¸ÄúocÄÎ:"
 msgstr ""
 
 #: 02_Main.otws
@@ -8232,6 +8237,31 @@ msgstr ""
 #: 04_Settings.otws
 msgctxt "[Mask:ErrorIPCfg][Field:Text_2]"
 msgid "NET Configuration"
+msgstr ""
+
+#: 03_Devices.otws
+msgctxt "[Mask:FBus_Settings][Field:Text]"
+msgid "C¾oÃocÄÎ:"
+msgstr ""
+
+#: 03_Devices.otws
+msgctxt "[Mask:FBus_Settings][Field:Text_2]"
+msgid "¬cÄaúoÆ¾a"
+msgstr ""
+
+#: 03_Devices.otws
+msgctxt "[Mask:FBus_Settings][Field:Text_3]"
+msgid "1/3"
+msgstr ""
+
+#: 03_Devices.otws
+msgctxt "[Mask:FBus_Settings][Field:Text_4]"
+msgid "CÄoÁ-µ¼Ä"
+msgstr ""
+
+#: 03_Devices.otws
+msgctxt "[Mask:FBus_Settings][Field:Text_5]"
+msgid "«¸ÄúocÄÎ:"
 msgstr ""
 
 #: 02_Main.otws
@@ -8444,6 +8474,11 @@ msgstr ""
 #: 03_Devices.otws
 msgctxt "[Mask:Plant][Field:Text_5]"
 msgid "OcúoÆúËx Â¼¿¿¸ÃoÆ:"
+msgstr ""
+
+#: 03_Devices.otws
+msgctxt "[Mask:Plant][Field:Text_6]"
+msgid "1/3"
 msgstr ""
 
 #: 03_Devices.otws

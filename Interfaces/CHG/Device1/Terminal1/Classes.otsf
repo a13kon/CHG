@@ -1632,9 +1632,9 @@
       <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
     </KeyBindings>
     <ResourceUsedOnInt>
-      <Index Value="0" Content="None" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
-      <Index Value="1" Content=" Odd" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
-      <Index Value="2" Content="Even" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="0" Content="H¸Ä" Type="Text" Font="CAREL_TERM_EAST" ProportionalCharWidth="true" />
+      <Index Value="1" Content="H¸Â¸Ä" Type="Text" Font="CAREL_TERM_EAST" ProportionalCharWidth="true" />
+      <Index Value="2" Content="«¸Ä" Type="Text" Font="CAREL_TERM_EAST" ProportionalCharWidth="true" />
     </ResourceUsedOnInt>
   </FormatField>
   <FormatField Name="pCO_Type" Format="o2">

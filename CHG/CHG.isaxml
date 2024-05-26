@@ -527,34 +527,6 @@
         <Dimension Lower="0" Upper="19" />
       </Array>
     </DataType>
-    <DataType Name="TEEV" Comment="" Access="ReadOnly">
-      <Struct FieldOrder="1" Order="3">
-        <Variable Name="Enable" DataType="BOOL" Comment="" StringSize="0" Order="1" />
-        <Variable Name="PositionToSet" DataType="UINT" Comment="" StringSize="0" Order="2" />
-        <Variable Name="VariationToSet" DataType="INT" Comment="" StringSize="0" Order="3" />
-        <Variable Name="CurrentEstimatedPosition" DataType="UINT" Comment="" StringSize="0" Order="4" />
-        <Variable Name="VariationRemaining" DataType="INT" Comment="" StringSize="0" Order="5" />
-        <Variable Name="MaxSteps" DataType="UINT" Comment="" StringSize="0" Order="6" />
-        <Variable Name="MinSteps" DataType="UINT" Comment="" StringSize="0" Order="7" />
-        <Variable Name="ClosingSteps" DataType="UINT" Comment="" StringSize="0" Order="8" />
-        <Variable Name="NominalCurrent" DataType="UINT" Comment="" StringSize="0" Order="9" />
-        <Variable Name="HoldingCurrent" DataType="UINT" Comment="" StringSize="0" Order="10" />
-        <Variable Name="Speed" DataType="UINT" Comment="" StringSize="0" Order="11" />
-        <Variable Name="DutyCycle" DataType="UINT" Comment="" StringSize="0" Order="12" />
-        <Variable Name="DutyCycleEnable" DataType="BOOL" Comment="" StringSize="0" Order="13" />
-        <Variable Name="OpeningXSteps" DataType="BOOL" Comment="" StringSize="0" Order="14" />
-        <Variable Name="ClosingXSteps" DataType="BOOL" Comment="" StringSize="0" Order="15" />
-        <Variable Name="FastClosingSpeed" DataType="UINT" Comment="" StringSize="0" Order="16" />
-        <Variable Name="FastClosingSpeedEnable" DataType="BOOL" Comment="" StringSize="0" Order="17" />
-        <Variable Name="Alarms" DataType="USINT" Comment="" StringSize="0" Order="18" />
-      </Struct>
-    </DataType>
-    <DataType Name="ALM" Comment="" Access="ReadOnly">
-      <Struct FieldOrder="1" Order="4">
-        <Variable Name="Trigger" DataType="BOOL" Comment="Alarm status Trigger" StringSize="0" Order="1" />
-        <Variable Name="Active" DataType="BOOL" Comment="Alarm status" StringSize="0" Order="2" />
-      </Struct>
-    </DataType>
     <DataType Name="ARR_COIL" Comment="" Access="UserDefined">
       <Array Order="1" DataType="BOOL" StringSize="0">
         <Dimension Lower="0" Upper="126" />
@@ -605,6 +577,34 @@
       <Array Order="1" DataType="STCT_CHILL_RTU" StringSize="0">
         <Dimension Lower="0" Upper="5" />
       </Array>
+    </DataType>
+    <DataType Name="TEEV" Comment="" Access="ReadOnly">
+      <Struct FieldOrder="1" Order="3">
+        <Variable Name="Enable" DataType="BOOL" Comment="" StringSize="0" Order="1" />
+        <Variable Name="PositionToSet" DataType="UINT" Comment="" StringSize="0" Order="2" />
+        <Variable Name="VariationToSet" DataType="INT" Comment="" StringSize="0" Order="3" />
+        <Variable Name="CurrentEstimatedPosition" DataType="UINT" Comment="" StringSize="0" Order="4" />
+        <Variable Name="VariationRemaining" DataType="INT" Comment="" StringSize="0" Order="5" />
+        <Variable Name="MaxSteps" DataType="UINT" Comment="" StringSize="0" Order="6" />
+        <Variable Name="MinSteps" DataType="UINT" Comment="" StringSize="0" Order="7" />
+        <Variable Name="ClosingSteps" DataType="UINT" Comment="" StringSize="0" Order="8" />
+        <Variable Name="NominalCurrent" DataType="UINT" Comment="" StringSize="0" Order="9" />
+        <Variable Name="HoldingCurrent" DataType="UINT" Comment="" StringSize="0" Order="10" />
+        <Variable Name="Speed" DataType="UINT" Comment="" StringSize="0" Order="11" />
+        <Variable Name="DutyCycle" DataType="UINT" Comment="" StringSize="0" Order="12" />
+        <Variable Name="DutyCycleEnable" DataType="BOOL" Comment="" StringSize="0" Order="13" />
+        <Variable Name="OpeningXSteps" DataType="BOOL" Comment="" StringSize="0" Order="14" />
+        <Variable Name="ClosingXSteps" DataType="BOOL" Comment="" StringSize="0" Order="15" />
+        <Variable Name="FastClosingSpeed" DataType="UINT" Comment="" StringSize="0" Order="16" />
+        <Variable Name="FastClosingSpeedEnable" DataType="BOOL" Comment="" StringSize="0" Order="17" />
+        <Variable Name="Alarms" DataType="USINT" Comment="" StringSize="0" Order="18" />
+      </Struct>
+    </DataType>
+    <DataType Name="ALM" Comment="" Access="ReadOnly">
+      <Struct FieldOrder="1" Order="4">
+        <Variable Name="Trigger" DataType="BOOL" Comment="Alarm status Trigger" StringSize="0" Order="1" />
+        <Variable Name="Active" DataType="BOOL" Comment="Alarm status" StringSize="0" Order="2" />
+      </Struct>
     </DataType>
   </DataTypes>
   <Networks>

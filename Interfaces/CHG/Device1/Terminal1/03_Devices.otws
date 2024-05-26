@@ -259,6 +259,37 @@
         <Field Type="Variable" Name="Variable_4" Row="6" Column="18" Content="UseLocalPump" Min="0" Max="1" Class="YesNo" Format="iob" SimulationValue="0" />
         <Field Type="Text" Name="Text_4" Row="5" Column="0" Content="¬ÁÃaÆ¿. ¾¿aÁaúaÀ¼:" />
         <Field Type="Text" Name="Text_5" Row="6" Column="0" Content="©o¾a¿ÎúË¸ úacocË :" />
+        <Field Type="Text" Name="Text_6" Row="0" Column="19" Content="1/3" />
+      </Fields>
+    </Mask>
+    <Mask Name="FBus_Settings" Type="Normal" X="0" Y="4">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="1" Content="ªoÃÄ FBus(­¸·ÅÈ¼É)" />
+        <Field Type="Text" Name="Text_3" Row="0" Column="19" Content="2/3" />
+        <Field Type="Variable" Name="Variable" Row="3" Column="15" Content="Protocol.FBus_CaseBaudrate" Min="0" Max="5" Class="Baudrate" Format="io+6" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_2" Row="4" Column="15" Content="Protocol.FBus_StopBit" Min="1" Max="2" Class="StopBit" Format="io1" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_3" Row="5" Column="15" Content="Protocol.FBus_Parity" Min="0" Max="2" Class="Parity" Format="io4" SimulationValue="0" />
+        <Field Type="Text" Name="Text" Row="3" Column="0" Content="C¾oÃocÄÎ:" />
+        <Field Type="Text" Name="Text_4" Row="4" Column="0" Content="CÄoÁ-µ¼Ä:" />
+        <Field Type="Text" Name="Text_5" Row="5" Column="0" Content="«¸ÄúocÄÎ:" />
+      </Fields>
+    </Mask>
+    <Mask Name="BMS_Settings" Type="Normal" X="0" Y="5">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="1" Content="ªoÃÄ BMS (­¸·oÀËÉ)" />
+        <Field Type="Text" Name="Text_3" Row="0" Column="19" Content="3/3" />
+        <Field Type="Variable" Name="Variable_2" Row="5" Column="15" Content="Protocol.BMS_Parity" Min="0" Max="2" Class="Parity" Format="io4" SimulationValue="0" />
+        <Field Type="Variable" Name="Variable_3" Row="4" Column="15" Content="Protocol.BMS_StopBit" Min="1" Max="2" Class="StopBit" Format="io1" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_4" Row="3" Column="15" Content="Protocol.BMS_CaseBaudrate" Min="0" Max="9" Class="Baudrate" Format="io+6" SimulationValue="9" />
+        <Field Type="Text" Name="Text_4" Row="3" Column="0" Content="C¾oÃocÄÎ:" />
+        <Field Type="Text" Name="Text_5" Row="4" Column="0" Content="CÄoÁ-µ¼Ä:" />
+        <Field Type="Text" Name="Text_6" Row="5" Column="0" Content="«¸ÄúocÄÎ:" />
+        <Field Type="Text" Name="Text" Row="2" Column="0" Content="A·Ã¸c:" />
+        <Field Type="Variable" Name="Variable" Row="2" Column="15" Content="Protocol.BMS_Address" Class="CL_UINT" Format="io3" Min="1" Max="255" SimulationValue="1" />
       </Fields>
     </Mask>
   </Loop>

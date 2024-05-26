@@ -4736,17 +4736,17 @@ msgstr "P¬«."
 #: Classes.otsf
 msgctxt "[Class:Parity][Resource:0]"
 msgid "None"
-msgstr "None"
+msgstr "H¸Ä"
 
 #: Classes.otsf
 msgctxt "[Class:Parity][Resource:1]"
 msgid "Odd"
-msgstr "Odd"
+msgstr "H¸Â¸Ä"
 
 #: Classes.otsf
 msgctxt "[Class:Parity][Resource:2]"
 msgid "Even"
-msgstr "Even"
+msgstr "«¸Ä"
 
 #: Classes.otsf
 msgctxt "[Class:pCO_Type][Resource:0]"
@@ -7809,39 +7809,14 @@ msgid " £A"
 msgstr " £A"
 
 #: 04_Settings.otws
-msgctxt "[Mask:AlrmInit][Field:Text]"
-msgid "A·Ã¸c Æ c¸Ä¼:"
-msgstr "A·Ã¸c Æ c¸Ä¼:"
-
-#: 04_Settings.otws
 msgctxt "[Mask:AlrmInit][Field:Text_1]"
 msgid "Delete alarm logs?"
 msgstr "OÂ¼cÄ¼ÄÎ ½ÅÃúa¿?"
 
 #: 04_Settings.otws
-msgctxt "[Mask:AlrmInit][Field:Text_2]"
-msgid "Baudrate: 19200"
-msgstr "C¾oÃocÄÎ:      19200"
-
-#: 04_Settings.otws
 msgctxt "[Mask:AlrmInit][Field:Text_3]"
 msgid "Initialization"
 msgstr "¦ú¼¶¼a¿¼Êa¶¼Ó"
-
-#: 04_Settings.otws
-msgctxt "[Mask:AlrmInit][Field:Text_4]"
-msgid "Baudrate:      19200"
-msgstr "CÄoÁ-µ¼Ä:          1"
-
-#: 04_Settings.otws
-msgctxt "[Mask:AlrmInit][Field:Text_5]"
-msgid "Stop bit:          1"
-msgstr "«¸ÄúocÄÎ:        ú¸Ä"
-
-#: 04_Settings.otws
-msgctxt "[Mask:AlrmInit][Field:Text_6]"
-msgid " "
-msgstr " "
 
 #: 01_Alrms.otws
 #| msgctxt "[Mask:Alarms_Active][Field:Field_1]"
@@ -7943,6 +7918,36 @@ msgstr " "
 msgctxt "[Mask:Alrms_Res][Field:to_DATA_LOGGER_2]"
 msgid "to DATA LOGGER"
 msgstr "aÆaÃ¼É úa½À¼Ä¸ ENTER"
+
+#: 03_Devices.otws
+msgctxt "[Mask:BMS_Settings][Field:Text]"
+msgid "A·Ã¸c:"
+msgstr "A·Ã¸c:"
+
+#: 03_Devices.otws
+msgctxt "[Mask:BMS_Settings][Field:Text_2]"
+msgid "¬cÄaúoÆ¾a"
+msgstr "ªoÃÄ BMS (­¸·oÀËÉ)"
+
+#: 03_Devices.otws
+msgctxt "[Mask:BMS_Settings][Field:Text_3]"
+msgid "1/3"
+msgstr "3/3"
+
+#: 03_Devices.otws
+msgctxt "[Mask:BMS_Settings][Field:Text_4]"
+msgid "C¾oÃocÄÎ:"
+msgstr "C¾oÃocÄÎ:"
+
+#: 03_Devices.otws
+msgctxt "[Mask:BMS_Settings][Field:Text_5]"
+msgid "CÄoÁ-µ¼Ä:"
+msgstr "CÄoÁ-µ¼Ä:"
+
+#: 03_Devices.otws
+msgctxt "[Mask:BMS_Settings][Field:Text_6]"
+msgid "«¸ÄúocÄÎ:"
+msgstr "«¸ÄúocÄÎ:"
 
 #: 02_Main.otws
 msgctxt "[Mask:ChillInfo_1][Field:Text]"
@@ -8150,6 +8155,31 @@ msgstr "ERROR OCCURRED"
 msgctxt "[Mask:ErrorIPCfg][Field:Text_2]"
 msgid "NET Configuration"
 msgstr "NET Configuration"
+
+#: 03_Devices.otws
+msgctxt "[Mask:FBus_Settings][Field:Text]"
+msgid "C¾oÃocÄÎ:"
+msgstr "C¾oÃocÄÎ:"
+
+#: 03_Devices.otws
+msgctxt "[Mask:FBus_Settings][Field:Text_2]"
+msgid "¬cÄaúoÆ¾a"
+msgstr "ªoÃÄ FBus(­¸·ÅÈ¼É)"
+
+#: 03_Devices.otws
+msgctxt "[Mask:FBus_Settings][Field:Text_3]"
+msgid "1/3"
+msgstr "2/3"
+
+#: 03_Devices.otws
+msgctxt "[Mask:FBus_Settings][Field:Text_4]"
+msgid "CÄoÁ-µ¼Ä"
+msgstr "CÄoÁ-µ¼Ä:"
+
+#: 03_Devices.otws
+msgctxt "[Mask:FBus_Settings][Field:Text_5]"
+msgid "«¸ÄúocÄÎ:"
+msgstr "«¸ÄúocÄÎ:"
 
 #: 02_Main.otws
 msgctxt "[Mask:InsertManuf][Field:Text_1]"
@@ -8362,6 +8392,11 @@ msgstr "¬ÁÃaÆ¿. ¾¿aÁaúaÀ¼:"
 msgctxt "[Mask:Plant][Field:Text_5]"
 msgid "OcúoÆúËx Â¼¿¿¸ÃoÆ:"
 msgstr "©o¾a¿ÎúË¸ úacocË :"
+
+#: 03_Devices.otws
+msgctxt "[Mask:Plant][Field:Text_6]"
+msgid "1/3"
+msgstr "1/3"
 
 #: 03_Devices.otws
 msgctxt "[Mask:Pwd_LogIn][Field:Text_1]"

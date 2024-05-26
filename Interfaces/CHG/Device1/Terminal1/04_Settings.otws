@@ -79,12 +79,6 @@
         <Field Type="Text" Name="Text_1" Row="7" Column="1" Content="OÂ¼cÄ¼ÄÎ ½ÅÃúa¿?" />
         <Field Type="Variable" Name="Variable_1" Row="7" Column="18" Content="AlrmLogDelete" Class="AlarmLogDelete" Format="iob" Min="0" Max="1" SimulationValue="0" />
         <Field Type="Text" Name="Text_3" Row="0" Column="1" Content="¦ú¼¶¼a¿¼Êa¶¼Ó" />
-        <Field Type="Text" Name="Text_6" Row="4" Column="0" Content=" " />
-        <Field Type="Variable" Name="Variable" Row="2" Column="18" Content="GeneralMng.Address_BMS2" Min="0" Max="255" Class="CL_UINT" Format="io3" />
-        <Field Type="Text" Name="Text" Row="2" Column="1" Content="A·Ã¸c Æ c¸Ä¼:" />
-        <Field Type="Text" Name="Text_2" Row="3" Column="1" Content="C¾oÃocÄÎ:      19200" />
-        <Field Type="Text" Name="Text_4" Row="4" Column="1" Content="CÄoÁ-µ¼Ä:          1" />
-        <Field Type="Text" Name="Text_5" Row="5" Column="1" Content="«¸ÄúocÄÎ:        ú¸Ä" />
       </Fields>
       <KeyBindings />
     </Mask>
