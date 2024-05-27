@@ -2,15 +2,15 @@
 00000000 :  43 41 52 45 4C 5F 50 43  -  4F 00 00 00 00 00 00 00   * Target Name : CAREL_PCO
 00000010 :  00 00 00 0C   * RDCC format version number
 00000014 :  D1 FA 6A B6   * Resource check sum
-00000018 :  6E 26 DE EF   * Module check sum
+00000018 :  50 B0 D5 3E   * Module check sum
 0000001C :  00 00 00 04   * Module ID parameter
 00000020 :  00 00 8A B0   * Total size
 00000024 :  00 00 8A 2C   * Size without __RDCC_MODULE_ID
 00000028 :  00 00 00 44   * Offset -> resource name
 0000002C :  00 00 00 5A   * Offset -> module name
 00000030 :  00 00 00 84   * Offset -> beginning of the data block
-00000034 :  66 53 16 F6   * Compilation generation date
-00000038 :  00 00 01 2C   * Compilation version number
+00000034 :  66 54 27 68   * Compilation generation date
+00000038 :  00 00 01 2D   * Compilation version number
 0000003C :  00 00 00 00   * User module version number
 00000040 :  00 00 00 69   * Offset -> target auto-validation data
 00000044 :  43 48 47 5C 44 45 56 49  -  43 45 31 5C 52 45 53 4F 
@@ -631,7 +631,7 @@
 00000880 :  01   * 1
 00000881 :  00 00 00  
 00000884 :  00 00 04 88   * BMS_STOPBIT
-00000888 :  01   * 1
+00000888 :  02   * 2
 00000889 :  00 00 00  
 0000088C :  00 00 04 8A   * FBUS_STOPBIT
 00000890 :  01   * 1

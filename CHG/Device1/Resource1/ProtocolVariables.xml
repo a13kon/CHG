@@ -96,7 +96,7 @@
       Acronym=""
       Min="1"
       Max="2"
-      InitialValue="1"
+      InitialValue="2"
       StringSize="0" />
     <Variable
       Name="FBus_Baudrate"

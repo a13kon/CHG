@@ -1016,8 +1016,8 @@
   </FormatField>
   <FormatField Name="Baudrate" Format="io+6">
     <KeyBindings>
-      <KeyBinding Key="UP" BindOn="Increment_BYTE" />
-      <KeyBinding Key="DOWN" BindOn="Decrement_BYTE" />
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
       <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
     </KeyBindings>
     <ResourceUsedOnInt>
@@ -1035,8 +1035,8 @@
   </FormatField>
   <FormatField Name="StopBit" Format="io1">
     <KeyBindings>
-      <KeyBinding Key="UP" BindOn="Increment_BYTE" />
-      <KeyBinding Key="DOWN" BindOn="Decrement_BYTE" />
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
       <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
     </KeyBindings>
     <ResourceUsedOnInt>
@@ -1047,8 +1047,8 @@
   </FormatField>
   <FormatField Name="Parity" Format="io4">
     <KeyBindings>
-      <KeyBinding Key="UP" BindOn="Increment_BYTE" />
-      <KeyBinding Key="DOWN" BindOn="Decrement_BYTE" />
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
       <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
     </KeyBindings>
     <ResourceUsedOnInt>
